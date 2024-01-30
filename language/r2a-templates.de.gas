@@ -1,0 +1,113 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "Werewolf";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ice Beast";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Salamander Claw";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Salamander Archer";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Salamander Caster";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Braak Lurker";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Hassat Lieutenant";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Hassat King";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Kron the Wide";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Guard Fielding";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Melee Award";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ranged Award";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Combat Magic Award";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Nature Magic Award";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Salamander Long Bow";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Zombie Bow";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Zombie Blade";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Experiment Logbook";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Experiment Journal";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Adventurer's Diary";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Written Note";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Vault Door Pistons";
+		to = "";
+	}
+}

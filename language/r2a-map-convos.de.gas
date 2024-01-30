@@ -1,0 +1,388 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = " ";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "With the passing of the Shadowjumper, the Hero of Arhok returned, and peace descended upon the town.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "But the Staff of Stars was judged too powerful to remain in the land, and too dangerous to destroy.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "In a final selfless act, the Hero of Arhok agreed to be frozen - along with the Staff - into a Great Statue to watch over the town should trouble ever return.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Now foul creatures have returned to ravage the lands outside Arhok. Though a few brave souls have journeyed beyond the town's gates, none have returned.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The time has come for the Protector of Arhok to awaken.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.\n\nThe spell that held you in stasis destroyed the Staff of Stars, and even drained some of your life force. I hope you will train before you leave town.\n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You should go speak to Rowan. He will tell you of our plight.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Off on another adventure? The woods are crawling with evil creatures these days. Be sure to talk to Kiira at the mage's guild before you leave town.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Off on another adventure? The woods are crawling with evil creatures these days. Be sure to talk to Kiira at the mage's guild before you leave town.\n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I know everyone thinks it's the Hassat that are attacking, but I never thought they were that bad.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I know everyone thinks it's the Hassat that are attacking, but I never thought they were that bad. \n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Well done! Another surpassing good adventure, I'd say!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "These gates are locked, my friend. Several have left without returning. Each night we are beset by beasts. No one has seen them; they may lurk outside even now!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You look like you can handle yourself. Good luck out there.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You showed them Zaurask a thing or two!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I don't think you should go this way... the problems seem to be coming from the North.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Just doing my job. I won't open the gate. You can stop trying.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I know everyone says you rescued us and all, but I still won't open this gate.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Rowan has ordered this path closed. Our troubles are not beyond here. I warrant you will find plenty of action elsewhere.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "This isn't the way you want to go.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before. Kiira tells me the stasis spell has reduced your skills; she has scrolls to help you.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Before you leave town, be sure to talk to Kiira.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Kiira seems to have helped you. Take the North gate out of town. That's where those mangy cats are coming from.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Thank the heavens that the world has heroes such as you. So tell me—what will your next adventure be?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I have a gift for you, but Rowan insists that you speak to him first.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I know you sacrificed the Staff of Stars for the greater good of Ehb, and I'm grateful. Having some skill in the arts, I have prepared four scrolls to aid you. Each will grant you knowledge and skill in the discipline of your choosing. Choose the skill you wish aid in carefully, for I have only enough mana to imbue a single scroll. ";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You may choose any one of these scrolls. Choose wisely!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Have you any need of spells or potions?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Once again, you have saved us.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "An honest man can't even make a living any more. why, my mules all ran off after those beasts attacked the town last time. I never even saw what happened.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I still don't trust the Hassat, because my mules don't trust them.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "These things were working a minute ago, I swear they were. If I could just get a single quiet minute to decipher these runes...";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I should be in my lab.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "What is it now?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I never did trust that Rowan. He took charge too suddenly after Hardison vanished. Still, if he asked Moht to wake you, he can't be all bad.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Be careful. As my Mum used to say: 'You cant judge a sword by its sheath.'";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The world is a better place with those like you in it. Thank you.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I would travel with you, but you don't appear ready. Speak to Kiira.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I know that you have sacrificed your skills and life for this town, with little enough thanks.  I, for one, want to help, but I have some debts I must resolve before I can in good conscience leave this town. Help me take care of them, and I will be your loyal companion.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Thank you, kind sir. I am at your service.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I'm sorry, I can't join you before taking care of my debts.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "As you wish. I will wait here in case you change your mind.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "A change of heart? Excellent. I will be a first rate adventurer.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I'd love to get out of this town, and I'm handy with a bow, but you don't look like you can handle yourself out there.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Nothing ever happens in this town. I wish I had a grand adventure to go on. I'll go with you for a price.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Great! Thanks for the gold. Now let's get going.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Whatever. I'm still bored, and you're still rich.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Too bad you don't have enough money. I'll try to hide my disappointment.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Oh, man! Just when I was starting to have a good time!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Good thinking. You probably can't make it without me.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I remember you! Kiira told me she was going to make some scrolls for you.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too. I'd join you too, but who will send money to my poor invalid parents in Smithee? I have to think of them, you know.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Excellent. I can do more than trap critters now. I can fry 'em!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Fine then, no skin off my nose. I'll just join the next group of adventurers that comes by.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I have to make sure my parents are taken care of. Come back when you have more gold.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I wanted to go back and sit in my shack anyway.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I'll help, but why don't you make up your mind?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Bah! Who needs you! I can take care of myself.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Too long was my mind clouded by the evil of the island... Thank you, my friend! Thank you... your parents would be proud. Your courage and bravery mark you as a true hero.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "There's a storm moving in now; there's dark clouds to the west.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You have acquitted yourself admirably.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "My father says never to go on adventures with people who aren't experienced.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I'm a good fighter! My dad says I can smash anything! You'll see! Can I come with you? There's just this little matter of my bar tab.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Yes, I'm a really good fighter. You'll see.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "That makes Boris sad.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "That tavern keeper is really mean! If I don't pay my bill, he won't let me leave.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "That makes Boris sad. Will you come back someday?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I'm ready to hurt things for you. Just tell me which ones.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Humans, although you come with weapons drawn, I tell you it is not our brothers that have attacked your town. Our enmity for the humans is ancient, but now we have a more pressing concern. Our lands have been wrenched from us by the scaly ones. New lizard creatures attack, and are fiercer and braver than before.\n\nWe are forced from our home, and many of us would fight. Our King has been taken from us by the leader of the Zaurask. If you can find him, perhaps you can persuade us not to take over your town as our new home.\n\nAs a token of our good will, Tareece will join you on your search.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "We will suffer your kind for a short time only. Save our King, or you will be sorry.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "We thank you. We shall return to our lands now. May our races exist together in peace.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Impressive. I didn't think you would get this far. You humans always seem to carry on longer than you should. When Raks awoke, he summoned me. The filthy Hassat kept our kind trapped in this fetid place, and Raks offered us a way out. We captured the Hassat King together, trapped him in Raks' lair below, and then Raks led the Zaurask Zombies against the Hassat. Without their King they were easy prey.\n\nNow we have our sights set on the human town, and we aren't going to let you stop us. Watch now, and prepare for your doom!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You may return in peace to your town.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You must kill Raks to free me.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Thank you. You act nobly, even though you have the aspect of the cursed humans. Although I have often railed against your kind, perhaps time enough has passed for us to live together. I shall return to my lands and tell my subjects of your help and your valor, and perhaps sometime in the future we can stand in battle side by side.";
+		to = "";
+	}
+}
