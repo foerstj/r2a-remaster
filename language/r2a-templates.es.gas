@@ -1,0 +1,113 @@
+[t:0x0c0a,n:text]
+{
+	[0x0000]
+	{
+		from = "Werewolf";
+		to = "Hombre-lobo";
+	}
+	[0x0000]
+	{
+		from = "Ice Beast";
+		to = "Bestia de Hielo";
+	}
+	[0x0000]
+	{
+		from = "Salamander Claw";
+		to = "Garra Salamandra";
+	}
+	[0x0000]
+	{
+		from = "Salamander Archer";
+		to = "Arquero Salamandra";
+	}
+	[0x0000]
+	{
+		from = "Salamander Caster";
+		to = "Mago Salamandra";
+	}
+	[0x0000]
+	{
+		from = "Braak Lurker";
+		to = "Acechador Braak";
+	}
+	[0x0000]
+	{
+		from = "Hassat Lieutenant";
+		to = "Teniente Hassat";
+	}
+	[0x0000]
+	{
+		from = "Hassat King";
+		to = "Rey Hassat";
+	}
+	[0x0000]
+	{
+		from = "Kron the Wide";
+		to = "Kron el Ancho";
+	}
+	[0x0000]
+	{
+		from = "Guard Fielding";
+		to = "Guardia";
+	}
+	[0x0000]
+	{
+		from = "Melee Award";
+		to = "Tomo de Cuerpo a Cuerpo";
+	}
+	[0x0000]
+	{
+		from = "Ranged Award";
+		to = "Tomo de Lucha a Distancia";
+	}
+	[0x0000]
+	{
+		from = "Combat Magic Award";
+		to = "Tomo de Magia de Combate";
+	}
+	[0x0000]
+	{
+		from = "Nature Magic Award";
+		to = "Tomo de Magia Natural";
+	}
+	[0x0000]
+	{
+		from = "Salamander Long Bow";
+		to = "Arco Largo Salamandra";
+	}
+	[0x0000]
+	{
+		from = "Zombie Bow";
+		to = "Arco Zombi";
+	}
+	[0x0000]
+	{
+		from = "Zombie Blade";
+		to = "Espada Zombi";
+	}
+	[0x0000]
+	{
+		from = "Experiment Logbook";
+		to = "Libro de Registro de Experimentos";
+	}
+	[0x0000]
+	{
+		from = "Experiment Journal";
+		to = "Diario de Experimentos";
+	}
+	[0x0000]
+	{
+		from = "Adventurer's Diary";
+		to = "Diario del Aventurero";
+	}
+	[0x0000]
+	{
+		from = "Written Note";
+		to = "Nota Escrita";
+	}
+	[0x0000]
+	{
+		from = "Vault Door Pistons";
+		to = "Pistones de Puerta de Bóveda";
+	}
+}
