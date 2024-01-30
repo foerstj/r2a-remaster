@@ -110,4 +110,9 @@
 		from = "Vault Door Pistons";
 		to = "Pistones de Puerta de Bóveda";
 	}
+	[0x0000]
+	{
+		from = "These gates have been locked by order of the Mayor.";
+		to = "Estas puertas han sido cerradas por orden del alcalde.";
+	}
 }
