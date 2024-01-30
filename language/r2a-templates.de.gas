@@ -3,111 +3,111 @@
 	[0x0000]
 	{
 		from = "Werewolf";
-		to = "";
+		to = "Werwolf";
 	}
 	[0x0000]
 	{
 		from = "Ice Beast";
-		to = "";
+		to = "Eisbiest";
 	}
 	[0x0000]
 	{
 		from = "Salamander Claw";
-		to = "";
+		to = "Salamanderklaue";
 	}
 	[0x0000]
 	{
 		from = "Salamander Archer";
-		to = "";
+		to = "Salamanderschütze";
 	}
 	[0x0000]
 	{
 		from = "Salamander Caster";
-		to = "";
+		to = "Salamander-Hexer";
 	}
 	[0x0000]
 	{
 		from = "Braak Lurker";
-		to = "";
+		to = "Braak-Schleicher";
 	}
 	[0x0000]
 	{
 		from = "Hassat Lieutenant";
-		to = "";
+		to = "Hassati-Leutnant";
 	}
 	[0x0000]
 	{
 		from = "Hassat King";
-		to = "";
+		to = "Hassati-König";
 	}
 	[0x0000]
 	{
 		from = "Kron the Wide";
-		to = "";
+		to = "Kron der Breite";
 	}
 	[0x0000]
 	{
 		from = "Guard Fielding";
-		to = "";
+		to = "Wächter Fielding";
 	}
 	[0x0000]
 	{
 		from = "Melee Award";
-		to = "";
+		to = "Nahkampfbonus";
 	}
 	[0x0000]
 	{
 		from = "Ranged Award";
-		to = "";
+		to = "Fernkampfbonus";
 	}
 	[0x0000]
 	{
 		from = "Combat Magic Award";
-		to = "";
+		to = "Kampfzauberbonus";
 	}
 	[0x0000]
 	{
 		from = "Nature Magic Award";
-		to = "";
+		to = "Naturzauberbonus";
 	}
 	[0x0000]
 	{
 		from = "Salamander Long Bow";
-		to = "";
+		to = "Salamander-Langbogen";
 	}
 	[0x0000]
 	{
 		from = "Zombie Bow";
-		to = "";
+		to = "Zombie-Bogen";
 	}
 	[0x0000]
 	{
 		from = "Zombie Blade";
-		to = "";
+		to = "Zombie-Klinge";
 	}
 	[0x0000]
 	{
 		from = "Experiment Logbook";
-		to = "";
+		to = "Experimentenlogbuch";
 	}
 	[0x0000]
 	{
 		from = "Experiment Journal";
-		to = "";
+		to = "Experimentenjournal";
 	}
 	[0x0000]
 	{
 		from = "Adventurer's Diary";
-		to = "";
+		to = "Tagebuch des Abenteurers";
 	}
 	[0x0000]
 	{
 		from = "Written Note";
-		to = "";
+		to = "Geschriebene Notiz";
 	}
 	[0x0000]
 	{
 		from = "Vault Door Pistons";
-		to = "";
+		to = "Tresortür-Kolben";
 	}
 }
