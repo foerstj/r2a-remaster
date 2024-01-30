@@ -110,4 +110,9 @@
 		from = "Vault Door Pistons";
 		to = "Tresortür-Kolben";
 	}
+	[0x0000]
+	{
+		from = "These gates have been locked by order of the Mayor.";
+		to = "Diese Tore wurden auf Befehl des Bürgermeisters versperrt.";
+	}
 }
