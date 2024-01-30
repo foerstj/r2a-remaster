@@ -140,7 +140,7 @@
     // Lharnob
 	[0x0000]
 	{
-		from = "Thank the heavens that the world has heroes such as you. So tell me what will your next adventure be?";
+		from = "Thank the heavens that the world has heroes such as you. So tell me�what will your next adventure be?";
 		to = "Gracias a los dioses que el mundo cuenta con héroes como vos. Contadme, ¿cuál será vuestra próxima aventura?";
 	}
 
