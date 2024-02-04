@@ -2,7 +2,7 @@
 :: TankCreator is expected to be in a sibling dir.
 
 :: name of map
-set map=dsx_xp
+set map=r2a
 :: name of map, case-sensitive
 set map_cs=ReturnToArhok
 :: path of DSLOA documents dir (where Bits are)
