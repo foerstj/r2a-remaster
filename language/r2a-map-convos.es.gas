@@ -1,0 +1,429 @@
+[t:0x0c0a,n:text]
+{
+    // Intro
+	[0x0000]
+	{
+		from = " ";
+		to = " ";
+	}
+	[0x0000]
+	{
+		from = "With the passing of the Shadowjumper, the Hero of Arhok returned, and peace descended upon the town.";
+		to = "Con la muerte del Shadowjumper, el Héroe de Arhok regresó y la paz descendió sobre la ciudad.";
+	}
+	[0x0000]
+	{
+		from = "But the Staff of Stars was judged too powerful to remain in the land, and too dangerous to destroy.";
+		to = "Pero se consideró que el Cayado de las Estrellas era demasiado poderoso para permanecer en estas tierras y demasiado peligroso para destruirlo.";
+	}
+	[0x0000]
+	{
+		from = "In a final selfless act, the Hero of Arhok agreed to be frozen - along with the Staff - into a Great Statue to watch over the town should trouble ever return.";
+		to = "En un último acto desinteresado, el Héroe de Arhok accedió a ser congelado, junto con el Cayado, en una Gran Estatua para vigilar la ciudad en caso de que los problemas volvieran a aparecer.";
+	}
+	[0x0000]
+	{
+		from = "Now foul creatures have returned to ravage the lands outside Arhok. Though a few brave souls have journeyed beyond the town's gates, none have returned.";
+		to = "Ahora criaturas repugnantes han regresado para devastar las tierras fuera de Arhok. Aunque algunas almas valientes han viajado más allá de las puertas de la ciudad, ninguna ha regresado.";
+	}
+	[0x0000]
+	{
+		from = "The time has come for the Protector of Arhok to awaken.";
+		to = "Ha llegado el momento de que el Protector de Arhok despierte.";
+	}
+
+    // Moht
+	[0x0000]
+	{
+		from = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.\n\nThe spell that held you in stasis destroyed the Staff of Stars, and even drained some of your life force. I hope you will train before you leave town.\n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "¡Bienvenido, héroe! Te necesitamos otra vez. Los ataques a nuestra ciudad en la oscuridad de la noche han matado a varios habitantes, y ahora nuestro querido alcalde, Hardison Dohn, ha desaparecido. Nadie está seguro de lo que está pasando. Rowan ha asumido las funciones de alcalde por ahora. Sospecho que eres nuestra mejor esperanza de defensa.\n\nEl hechizo que te mantuvo en estasis destruyó el Cayado de las Estrellas e incluso drenó parte de tu fuerza vital. Espero que entrenes antes de irte de la ciudad.\n\nHe ahorrado algo de dinero y pergaminos de resurrección para dártelos. No es mucho, pero quizás te ayude.";
+	}
+	[0x0000]
+	{
+		from = "You should go speak to Rowan. He will tell you of our plight.";
+		to = "Deberías ir a hablar con Rowan. Él os informará de nuestra difícil situación.";
+	}
+	[0x0000]
+	{
+		from = "Off on another adventure? The woods are crawling with evil creatures these days. Be sure to talk to Kiira at the mage's guild before you leave town.";
+		to = "¿Comienzas otra aventura? Los bosques están plagados de criaturas malvadas estos días. Asegúrate de hablar con Kiira en el Gremio de Magos antes de salir de la ciudad.";
+	}
+	[0x0000]
+	{
+		from = "Off on another adventure? The woods are crawling with evil creatures these days. Be sure to talk to Kiira at the mage's guild before you leave town.\n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "¿Comienzas otra aventura? Los bosques están plagados de criaturas malvadas estos días. Asegúrate de hablar con Kiira en el Gremio de Magos antes de salir de la ciudad.\n\nHe ahorrado algo de dinero y pergaminos de resurrección para dártelos. No es mucho, pero quizás te ayude.";
+	}
+	[0x0000]
+	{
+		from = "I know everyone thinks it's the Hassat that are attacking, but I never thought they were that bad.";
+		to = "Sé que todo el mundo piensa que son los Hassat los que están atacando, pero nunca pensé que fueran tan malos.";
+	}
+	[0x0000]
+	{
+		from = "I know everyone thinks it's the Hassat that are attacking, but I never thought they were that bad. \n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
+		to = "Sé que todo el mundo piensa que son los Hassat los que están atacando, pero nunca pensé que fueran tan malos.\n\nHe ahorrado algo de dinero y pergaminos de resurrección para dártelos. No es mucho, pero quizás te ayude.";
+	}
+	[0x0000]
+	{
+		from = "Well done! Another surpassing good adventure, I'd say!";
+		to = "¡Bien hecho! ¡Otra aventura extraordinariamente buena, diría yo!";
+	}
+
+    // Guard 1
+	[0x0000]
+	{
+		from = "These gates are locked, my friend. Several have left without returning. Each night we are beset by beasts. No one has seen them; they may lurk outside even now!";
+		to = "Estas puertas están cerradas, amigo mío. Varios se han ido y no han regresado. Cada noche nos acosan las bestias. ¡Nadie las ha visto, pueden estar acechando ahí afuera en estos momentos!";
+	}
+	[0x0000]
+	{
+		from = "You look like you can handle yourself. Good luck out there.";
+		to = "Parece que puedes arreglártelas solo. Buena suerte ahí fuera.";
+	}
+	[0x0000]
+	{
+		from = "You showed them Zaurask a thing or two!";
+		to = "¡Les mostraste a esos Zaurask quien manda!";
+	}
+
+    // Guard 2
+	[0x0000]
+	{
+		from = "I don't think you should go this way... the problems seem to be coming from the North.";
+		to = "No creo que debas ir por este camino... los problemas parecen venir del Norte.";
+	}
+	[0x0000]
+	{
+		from = "Just doing my job. I won't open the gate. You can stop trying.";
+		to = "Solo estoy haciendo mi trabajo. No abriré la puerta. Puedes dejar de intentarlo.";
+	}
+	[0x0000]
+	{
+		from = "I know everyone says you rescued us and all, but I still won't open this gate.";
+		to = "Sé que todos dicen que nos salvaste y todo eso, pero aun así no abriré esta puerta.";
+	}
+
+    // Guard 3
+	[0x0000]
+	{
+		from = "Rowan has ordered this path closed. Our troubles are not beyond here. I warrant you will find plenty of action elsewhere.";
+		to = "Rowan ha ordenado cerrar este camino. Nuestros problemas no están por aquí. Te garantizo que encontrarás mucha acción en otros lugares.";
+	}
+	[0x0000]
+	{
+		from = "This isn't the way you want to go.";
+		to = "Este no es el camino por el que quieres ir.";
+	}
+
+    // Rowan
+	[0x0000]
+	{
+		from = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before. Kiira tells me the stasis spell has reduced your skills; she has scrolls to help you.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.";
+		to = "Entonces, ¿tú eres el famoso héroe de Arhok? No me pareces tan impresionante. Aun así, la gente del pueblo tiene fe en ti y los salvaste una vez antes. Kiira me dice que el hechizo de estasis ha reducido tus habilidades; ella tiene unos tomos que pueden ayudarte.\n\nLa ciudad está siendo atacada y sé que son esos viles Hassat. Mi predecesor, Hardison, hizo poco para reforzar las defensas de la ciudad y ahora estamos casi indefensos contra estos feroces carroñeros. No tenemos idea de por qué nos atacan, pero hay que detenerlos antes de que destruyan la ciudad.";
+	}
+	[0x0000]
+	{
+		from = "Before you leave town, be sure to talk to Kiira.";
+		to = "Antes de salir de la ciudad, asegúrate de hablar con Kiira.";
+	}
+	[0x0000]
+	{
+		from = "Kiira seems to have helped you. Take the North gate out of town. That's where those mangy cats are coming from.";
+		to = "Kiira parece haberte ayudado. Toma la puerta norte para salir de la ciudad. De ahí vienen esos gatos sarnosos.";
+	}
+	[0x0000]
+	{
+		from = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
+		to = "La puerta norte es el camino a seguir... de ahí es de donde parecen venir los Hassat.";
+	}
+
+    // Lharnob
+	[0x0000]
+	{
+		from = "Thank the heavens that the world has heroes such as you. So tell me�what will your next adventure be?";
+		to = "Gracias a los dioses que el mundo cuenta con héroes como vos. Contadme, ¿cuál será vuestra próxima aventura?";
+	}
+
+    // Kiira
+	[0x0000]
+	{
+		from = "I have a gift for you, but Rowan insists that you speak to him first.";
+		to = "Tengo un regalo para ti, pero Rowan insiste en que hables con él primero.";
+	}
+	[0x0000]
+	{
+		from = "I know you sacrificed the Staff of Stars for the greater good of Ehb, and I'm grateful. Having some skill in the arts, I have prepared four scrolls to aid you. Each will grant you knowledge and skill in the discipline of your choosing. Choose the skill you wish aid in carefully, for I have only enough mana to imbue a single scroll. ";
+		to = "Sé que sacrificaste el Cayado de las Estrellas por el bien de Ehb, y te lo agradezco. Como tengo cierta habilidad en las artes mágicas, he preparado cuatro tomos para ayudarte. Cada uno le otorgará conocimientos y habilidades en la disciplina que elija. Elige cuidadosamente la habilidad en la que deseas ayuda, ya que solo tengo suficiente superpoder para imbuir un solo tomo.";
+	}
+	[0x0000]
+	{
+		from = "You may choose any one of these scrolls. Choose wisely!";
+		to = "Puedes elegir solo uno de cuatro tomos. ¡Así que elige sabiamente!";
+	}
+	[0x0000]
+	{
+		from = "Have you any need of spells or potions?";
+		to = "¿Necesitas hechizos o pociones?";
+	}
+	[0x0000]
+	{
+		from = "Once again, you have saved us.";
+		to = "Una vez más, nos has salvado.";
+	}
+
+    // Raab
+	[0x0000]
+	{
+		from = "An honest man can't even make a living any more. why, my mules all ran off after those beasts attacked the town last time. I never even saw what happened.";
+		to = "Un hombre honesto ya ni siquiera puede ganarse la vida. Todas mis mulas huyeron después de que esas bestias atacaron la ciudad la última vez. Ni siquiera vi lo que pasó.";
+	}
+	[0x0000]
+	{
+		from = "I still don't trust the Hassat, because my mules don't trust them.";
+		to = "Todavía no confío en los Hassat, porque mis mulas no confían en ellos.";
+	}
+
+    // Phelan
+	[0x0000]
+	{
+		from = "These things were working a minute ago, I swear they were. If I could just get a single quiet minute to decipher these runes...";
+		to = "Estas cosas estaban funcionando hace un minuto, lo juro. Si pudiera tener un solo minuto de tranquilidad para descifrar estas runas...";
+	}
+	[0x0000]
+	{
+		from = "I should be in my lab.";
+		to = "Debería haberme quedado en mi laboratorio.";
+	}
+	[0x0000]
+	{
+		from = "What is it now?";
+		to = "¿Qué pasa ahora?";
+	}
+
+    // Francesca
+	[0x0000]
+	{
+		from = "I never did trust that Rowan. He took charge too suddenly after Hardison vanished. Still, if he asked Moht to wake you, he can't be all bad.";
+		to = "Nunca confíe en ese Rowan. Se hizo cargo muy repentinamente después de que Hardison desapareció. Aún así, si le pidió a Moht que te despertara, no puede ser del todo malo.";
+	}
+	[0x0000]
+	{
+		from = "Be careful. As my Mum used to say: 'You cant judge a sword by its sheath.'";
+		to = "Ten cuidado. Como solía decir mi madre: 'No se puede juzgar una espada por su funda'.";
+	}
+
+    // Raschel
+	[0x0000]
+	{
+		from = "The world is a better place with those like you in it. Thank you.";
+		to = "Con personas como vos, el mundo es un lugar mejor. Gracias.";
+	}
+
+    // Saul
+	[0x0000]
+	{
+		from = "I would travel with you, but you don't appear ready. Speak to Kiira.";
+		to = "Viajaría contigo, pero no pareces preparado. Habla con Kiira.";
+	}
+	[0x0000]
+	{
+		from = "I know that you have sacrificed your skills and life for this town, with little enough thanks.  I, for one, want to help, but I have some debts I must resolve before I can in good conscience leave this town. Help me take care of them, and I will be your loyal companion.";
+		to = "Sé que has sacrificado tus habilidades y tu vida por este pueblo, con poco agradecimiento. Yo, por mi parte, quiero ayudar, pero tengo algunas deudas que debo resolver antes de poder abandonar esta ciudad con la conciencia tranquila. Ayúdame a con mis deudas y seré tu fiel compañero.";
+	}
+	[0x0000]
+	{
+		from = "Thank you, kind sir. I am at your service.";
+		to = "Gracias buen señor. Estoy a tu servicio.";
+	}
+	[0x0000]
+	{
+		from = "I'm sorry, I can't join you before taking care of my debts.";
+		to = "Lo siento, no puedo unirme a usted antes de encargarme de mis deudas.";
+	}
+	[0x0000]
+	{
+		from = "As you wish. I will wait here in case you change your mind.";
+		to = "Como desees. Esperaré aquí en caso de que cambies de opinión.";
+	}
+	[0x0000]
+	{
+		from = "A change of heart? Excellent. I will be a first rate adventurer.";
+		to = "¿Has cambiado de parecer? Excelente. No te decepcionaré.";
+	}
+
+    // Erin
+	[0x0000]
+	{
+		from = "I'd love to get out of this town, and I'm handy with a bow, but you don't look like you can handle yourself out there.";
+		to = "Me encantaría salir de esta ciudad y soy hábil con el arco, pero no parece que puedas manejarte ahí fuera.";
+	}
+	[0x0000]
+	{
+		from = "Nothing ever happens in this town. I wish I had a grand adventure to go on. I'll go with you for a price.";
+		to = "Nunca pasa nada en esta ciudad. Ojalá tuviera una gran aventura a la que ir. Iré contigo por un precio.";
+	}
+	[0x0000]
+	{
+		from = "Great! Thanks for the gold. Now let's get going.";
+		to = "¡Excelente! Gracias por el oro. Ahora pongámonos en marcha.";
+	}
+	[0x0000]
+	{
+		from = "Whatever. I'm still bored, and you're still rich.";
+		to = "Lo que sea. Todavía estoy aburrida y tú sigues con tu oro.";
+	}
+	[0x0000]
+	{
+		from = "Too bad you don't have enough money. I'll try to hide my disappointment.";
+		to = "Lástima que no tengas suficiente dinero. Intentaré ocultar mi decepción.";
+	}
+	[0x0000]
+	{
+		from = "Oh, man! Just when I was starting to have a good time!";
+		to = "¡Oh, vamos! ¡Justo cuando empezaba a pasarlo bien!";
+	}
+	[0x0000]
+	{
+		from = "Good thinking. You probably can't make it without me.";
+		to = "Buena idea. Probablemente no puedas lograrlo sin mí.";
+	}
+
+    // Kron
+	[0x0000]
+	{
+		from = "I remember you! Kiira told me she was going to make some scrolls for you.";
+		to = "¡Me acuerdo de ti! Kiira me dijo que iba a hacerte algunos tomos.";
+	}
+	[0x0000]
+	{
+		from = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too. I'd join you too, but who will send money to my poor invalid parents in Smithee? I have to think of them, you know.";
+		to = "Me ayudaste hace un tiempo y no lo he olvidado. He estado estudiando. Basta de trampas para mí. Si ese joven puede emprender una gran aventura, creo que yo también puedo. Yo también me uniría a ti, pero ¿quién enviará dinero a mis pobres padres inválidos en Smithee? Tengo que pensar en ellos, ¿sabes?";
+	}
+	[0x0000]
+	{
+		from = "Excellent. I can do more than trap critters now. I can fry 'em!";
+		to = "Excelente. Ahora puedo hacer más que atrapar alimañas. ¡Puedo freírlas!";
+	}
+	[0x0000]
+	{
+		from = "Fine then, no skin off my nose. I'll just join the next group of adventurers that comes by.";
+		to = "Bien entonces, no hay enemistad. Me uniré al próximo grupo de aventureros que pase.";
+	}
+	[0x0000]
+	{
+		from = "I have to make sure my parents are taken care of. Come back when you have more gold.";
+		to = "Tengo que asegurarme de que mis padres estén bien cuidados. Vuelve cuando tengas más oro.";
+	}
+	[0x0000]
+	{
+		from = "I wanted to go back and sit in my shack anyway.";
+		to = "De todos modos quería volver y sentarme en mi choza.";
+	}
+	[0x0000]
+	{
+		from = "I'll help, but why don't you make up your mind?";
+		to = "Te ayudaré, pero ¿por qué no te decides?";
+	}
+	[0x0000]
+	{
+		from = "Bah! Who needs you! I can take care of myself.";
+		to = "¡Bah! ¡Quién te necesita! Yo puedo cuidar de mí mismo.";
+	}
+
+    // Syrd
+	[0x0000]
+	{
+		from = "Too long was my mind clouded by the evil of the island... Thank you, my friend! Thank you... your parents would be proud. Your courage and bravery mark you as a true hero.";
+		to = "El demonio de la isla ha enturbiado mi mente durante demasiado tiempo... ¡Gracias, amigo mío! Gracias... Vuestros padres estarían orgullosos de vos. Vuestro valor y arrojo os convierten en un verdadero héroe.";
+	}
+
+    // Reynard
+	[0x0000]
+	{
+		from = "There's a storm moving in now; there's dark clouds to the west.";
+		to = "Hay una tormenta acercándose en estos momentos; hay nubes oscuras al oeste.";
+	}
+	[0x0000]
+	{
+		from = "You have acquitted yourself admirably.";
+		to = "Te has comportado admirablemente.";
+	}
+
+    // Boris
+	[0x0000]
+	{
+		from = "My father says never to go on adventures with people who aren't experienced.";
+		to = "Mi padre dice que nunca debo emprender aventuras con personas que no tienen experiencia.";
+	}
+	[0x0000]
+	{
+		from = "I'm a good fighter! My dad says I can smash anything! You'll see! Can I come with you? There's just this little matter of my bar tab.";
+		to = "¡Soy un buen luchador! ¡Mi papá dice que puedo aplastar cualquier cosa! ¡Verás! ¿Puedo ir contigo? Solo está este pequeño asunto con mi cuenta del bar.";
+	}
+	[0x0000]
+	{
+		from = "Yes, I'm a really good fighter. You'll see.";
+		to = "Sí, soy un muy buen luchador. Ya verás.";
+	}
+	[0x0000]
+	{
+		from = "That makes Boris sad.";
+		to = "Eso entristece a Boris.";
+	}
+	[0x0000]
+	{
+		from = "That tavern keeper is really mean! If I don't pay my bill, he won't let me leave.";
+		to = "¡Ese tabernero es realmente malo! Si no pago mi cuenta, no me dejará salir.";
+	}
+	[0x0000]
+	{
+		from = "That makes Boris sad. Will you come back someday?";
+		to = "Eso entristece a Boris. ¿Vas a volver pronto?";
+	}
+	[0x0000]
+	{
+		from = "I'm ready to hurt things for you. Just tell me which ones.";
+		to = "Estoy listo para herir cosas por ti. Solo dime cuáles.";
+	}
+
+    // Hassat
+	[0x0000]
+	{
+		from = "Humans, although you come with weapons drawn, I tell you it is not our brothers that have attacked your town. Our enmity for the humans is ancient, but now we have a more pressing concern. Our lands have been wrenched from us by the scaly ones. New lizard creatures attack, and are fiercer and braver than before.\n\nWe are forced from our home, and many of us would fight. Our King has been taken from us by the leader of the Zaurask. If you can find him, perhaps you can persuade us not to take over your town as our new home.\n\nAs a token of our good will, Tareece will join you on your search.";
+		to = "Humanos, aunque venís con las armas en la mano, os digo que no son nuestros hermanos los que han atacado vuestro pueblo. Nuestra enemistad hacia los humanos es antigua, pero ahora tenemos una preocupación más apremiante. Nuestras tierras nos han sido arrebatadas por los escamosos. Nuevas criaturas lagartos atacan y son más feroces y valientes que antes.\n\nNos vemos obligados a abandonar nuestro hogar y muchos de nosotros lucharíamos. Nuestro Rey nos ha sido arrebatado por el líder de los Zaurask. Si puedes encontrarlo, quizás puedas convencernos de que no tomemos tu ciudad como nuestro nuevo hogar.\n\nComo muestra de nuestra buena voluntad, Tareece se les unirá en su búsqueda.";
+	}
+	[0x0000]
+	{
+		from = "We will suffer your kind for a short time only. Save our King, or you will be sorry.";
+		to = "Aguantaremos a los de tu especie solo por poco tiempo. Salva a nuestro Rey, o te arrepentirás.";
+	}
+	[0x0000]
+	{
+		from = "We thank you. We shall return to our lands now. May our races exist together in peace.";
+		to = "Te agradecemos. Regresaremos a nuestras tierras ahora. Que nuestras razas existan juntas en paz.";
+	}
+
+    // Rowan
+	[0x0000]
+	{
+		from = "Impressive. I didn't think you would get this far. You humans always seem to carry on longer than you should. When Raks awoke, he summoned me. The filthy Hassat kept our kind trapped in this fetid place, and Raks offered us a way out. We captured the Hassat King together, trapped him in Raks' lair below, and then Raks led the Zaurask Zombies against the Hassat. Without their King they were easy prey.\n\nNow we have our sights set on the human town, and we aren't going to let you stop us. Watch now, and prepare for your doom!";
+		to = "Impresionante. No pensé que llegarías tan lejos. Ustedes los humanos siempre parecen aguantar más de lo debido. Cuando Raks despertó, me llamó. El asqueroso Hassat mantuvo a los de nuestra especie atrapados en este lugar fétido, y Raks nos ofreció una salida. Capturamos al Rey Hassat juntos, lo atrapamos en la guarida de Raks debajo, y luego Raks lideró a los Zombis Zaurask contra los Hassat. Sin su Rey eran presa fácil.\n\nAhora tenemos la vista puesta en ese pueblo humano y no dejaremos que nos detengas. ¡Observa y prepárate para tu perdición!";
+	}
+
+    // Hassat King
+	[0x0000]
+	{
+		from = "You may return in peace to your town.";
+		to = "Puedes regresar a tu pueblo en paz.";
+	}
+	[0x0000]
+	{
+		from = "You must kill Raks to free me.";
+		to = "Debes matar a Raks para poder liberarme.";
+	}
+	[0x0000]
+	{
+		from = "Thank you. You act nobly, even though you have the aspect of the cursed humans. Although I have often railed against your kind, perhaps time enough has passed for us to live together. I shall return to my lands and tell my subjects of your help and your valor, and perhaps sometime in the future we can stand in battle side by side.";
+		to = "Gracias. Actúas con nobleza, aunque tienes el aspecto de los humanos malditos. Aunque a menudo he criticado a los de tu especie, tal vez ya haya pasado suficiente tiempo para que vivamos juntos. Regresaré a mis tierras y les contaré a mis súbditos sobre tu ayuda y tu valor, y tal vez en algún momento en el futuro podamos luchar uno al lado del otro.";
+	}
+}

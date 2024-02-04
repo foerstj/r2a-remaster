@@ -1,0 +1,80 @@
+[t:0x0407,n:text]
+{
+    // Map
+	[0x0000]
+	{
+		from = "Return to Arhok";
+		to = "Rückkehr nach Arhok";
+	}
+	[0x0000]
+	{
+		from = "Rescue the Hassat King";
+		to = "Rettet den Hassati-König";
+	}
+
+    // Quests
+	[0x0000]
+	{
+		from = "Save the Town";
+		to = "Rettet die Stadt";
+	}
+	[0x0000]
+	{
+		from = "Speak to Rowan.";
+		to = "Sprecht mit Rowan.";
+	}
+	[0x0000]
+	{
+		from = "Speak to Kiira at the Mage's Guild for training";
+		to = "Sprecht mit Kiira in der Magierzunft für Training";
+	}
+	[0x0000]
+	{
+		from = "Discover the source of the Hassat Threat";
+		to = "Findet die Ursache der Bedrohung durch die Hassati";
+	}
+	[0x0000]
+	{
+		from = "Find the Hassat King";
+		to = "Findet den Hassati-König";
+	}
+	[0x0000]
+	{
+		from = "You have saved the town!";
+		to = "Ihr habt die Stadt gerettet!";
+	}
+
+    // Signs
+	[0x0000]
+	{
+		from = "'Jungle'";
+		to = "'Dschungel'";
+	}
+
+    // Command Messages
+	[0x0000]
+	{
+		from = "'I can sense you, human. You do not belong here. Return and await your fate with dignity.'";
+		to = "'Ich kann Euch spüren, Mensch. Ihr gehört nicht hierher. Kehrt um und erwartet Euer Schicksal in Würde.'";
+	}
+	[0x0000]
+	{
+		from = "'Those mangy cats are not so persistent as you. They at least have the sense to run away from their doom.''";
+		to = "'Diese räudigen Katzen sind nicht so hartnäckig wie Ihr. Die sind wenigstens vernünftig genug, von ihrem Verderben davonzurennen.'";
+	}
+	[0x0000]
+	{
+		from = "'Your death awaits you below. Do you hope to survive? Fool.'";
+		to = "'Euer Tod erwartet Euch unten. Hofft Ihr zu überleben? Dummkopf.'";
+	}
+	[0x0000]
+	{
+		from = "'You have discovered me and my designs. Are you ready to die?'";
+		to = "'Ihr habt mich und meine Pläne entdeckt. Seid Ihr bereit zu sterben?'";
+	}
+	[0x0000]
+	{
+		from = "WARNING! This map is not designed for Multiplayer Adventuring, problems may occur.";
+		to = "WARNUNG! Diese Karte wurde nicht für Multiplayer-Abenteuer entwickelt, Probleme können auftreten.";
+	}
+}

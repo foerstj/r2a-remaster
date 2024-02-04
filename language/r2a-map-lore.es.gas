@@ -1,0 +1,75 @@
+[t:0x0c0a,n:text]
+{
+	[0x0000]
+	{
+		from = "...Day 12 of the Month of the Falling Star...As with that damnable Queen creature the experiments are having the desired effect. The thing the handlers are now referring to as 'Rax' appears to be more aggressive. It must be bound and chained constantly or will cause great harm to those that approach it, even unto death. Four keepers have now fallen victim to the foul thing. It has taken considerable effort on my part to convince the others that it needs further study, rather than destruction. 
+
+...Day 23 of the Month of the Falling Star...A surprising side-effect of the experimental energies is that it seems to have the ability to spellcast, which is quite astonishing, as the creature has no speech or vocabulary we can identify. We have now been forced to sequester it in a dead zone, thereby hampering its spell use. This has aided my effort to keep the thing alive. These actions have convinced the council that our experiments are working to a degree and that the evolution of the species is something we are going to master. I myself have observed it watching us, which I count as a personal success of sorts, however unexpected it may be...it is obvious that the thing has somehow gained cognitive reasoning and intelligence � a trait somewhat lacking in its previous form. 
+
+...Day 14 of the Month of the Red Moon...I may have been mistaken, in that the creature does indeed have a vocabulary and a spoken language � ours! It has acquired an understanding, a rudimentary grasp, of our own tongue, and has even begun to communicate � albeit only to demand food, water or freedom. It is quite hard to believe that this creature before me now was  a few months prior (can it be so recent?!) a simple creature of the forest. Now it is a sentient being � the first of its kind...";
+		to = "...Día 12 del Mes de la Estrella Fugaz... Al igual que con esa maldita criatura Reina, los experimentos están teniendo el efecto deseado. Lo que los cuidadores llaman ahora 'Rax' parece ser más agresivo. Debe estar atado y encadenado constantemente o causará un gran daño a quienes se acerquen a él, incluso hasta la muerte. Cuatro cuidadores han caído víctima ante esta criatura. Me ha costado un esfuerzo considerable convencer a los demás de que necesita ser estudiado, en lugar de ser destruido.
+
+...Día 23 del Mes de la Estrella Fugaz... Un efecto secundario sorprendente de las energías experimentales es que parece tener la capacidad de lanzar hechizos, lo cual es bastante increíble, ya que la criatura no tiene habla ni vocabulario que podamos identificar. Ahora nos hemos visto obligados a aislarlo en una zona muerta, obstaculizando así su uso de hechizos. Esto ha ayudado a mi esfuerzo por mantener la criatura viva. Estas acciones han convencido al consejo de que nuestros experimentos están funcionando hasta cierto punto y que la evolución de las especies es algo que vamos a poder dominar. Yo mismo lo he observado mirándonos, lo que considero una especie de éxito personal, por inesperado que sea... es obvio que de alguna manera la cosa ha ganado razonamiento cognitivo e inteligencia, un rasgo que en cierto modo carecía en su forma anterior.
+
+...Día 14 del Mes de la Luna Roja... ¡Puede que me haya equivocado, en que la criatura sí tiene un vocabulario y un lenguaje hablado, el nuestro! Ha adquirido una comprensión, un entendimiento rudimentario de nuestra propia lengua, e incluso ha comenzado a comunicarse, aunque solo para exigir comida, agua o libertad. Es bastante difícil de creer que esta criatura que tengo ante mí ahora fuera unos meses antes (¡¿puede ser tan reciente?!) una simple criatura del bosque. Ahora es un ser sintiente, el primero de su tipo...";
+	}
+	[0x0000]
+	{
+		from = "The pages of this tome are torn and bloodstained and appear to be part of a personal medical journal.
+
+'... Day 5 of the Month of the Harvest... doom. The creature is loose, tearing its way through the lower dungeons and fighting its way to the surface. I have little time. Already I hear the soldiers dying beneath its claws and spells.
+
+Where did it go wrong? How did we fail? By all calculations the thing should be docile... Did we use the wrong formulae? How could we have failed?
+
+I hear them screaming, and the fighting seems much closer now, ... I cannot but hope that some fool did not tamper with the experiment � it is the only explanation for how things have gotten so out of hand. If only we could ...' 
+
+The rest is smeared with a great gout of ink, or some other dark sticky substance.";
+		to = "Las páginas de este tomo están rotas y manchadas de sangre, parecen ser parte de un diario médico personal.
+
+'...Día 5 del Mes de la Cosecha... Es el fin. La criatura está suelta, abriéndose paso a través de las mazmorras inferiores y luchando por llegar a la superficie. Tengo poco tiempo. Ya escucho a los soldados morir bajo sus garras y hechizos.
+
+¿Dónde salió mal? ¿Cómo fallamos? Según todos los cálculos la criatura debería ser dócil... ¿Usamos fórmulas equivocadas? ¿Cómo pudimos haber fracasado?
+
+Los escucho gritar, y la pelea parece estar mucho más cercana ahora... lo que debió haber pasado es que algún tonto haya alterado o manipulado el experimento; es la única explicación de cómo las cosas se han salido tanto de control. Si tan solo pudiéramos...'
+
+El resto está manchado con una gran gota de tinta, o alguna otra sustancia oscura y pegajosa.";
+	}
+	[0x0000]
+	{
+		from = "The pages of this worn journal are tattered beyond legibility in most places, but you are still able to discern several entries... 
+
+'...Arhok lies three days behind me now, and the jungles and unknown lands of the Utraeans are before me... What will I find? Glory? Honor? Wealth beyond imagining? Surely my name will be remembered along with the greatest of heroes of Arhok!
+
+...Too much pain to write much... Never knew such ferocious and evil things could exist. I have lost three fingers on my right hand so writing is difficult. I must take stock of my supplies before they regroup... If I can make it to the trees along the cliff I may be safe... 
+
+...Passed out. I can hear them shuffling and slavering outside...
+
+...This will no doubt be my last entry as the Zombie creatures are closing in... If you should find this, turn back... the only one we could hope to defeat them stands frozen in a place of honor in Arhok... tell my Father, I would have made him proud...' 
+
+Knyrr of Arhok'";
+		to = "Las páginas de este desgastado diario están hechas jirones hasta el punto de resultar ilegibles en la mayoría de los lugares, pero todavía se pueden distinguir varias entradas...
+
+'...Arhok se encuentra ahora tres días detrás de mí, las selvas y tierras desconocidas de los Utreanos están ante mí... ¿Qué encontraré? ¿Gloria? ¿Honor? ¿Riqueza más allá de lo imaginable? ¡Seguramente mi nombre será recordado junto con el de los más grandes héroes de Arhok!
+
+...Demasiado dolor para escribir... nunca pensé que criaturas tan feroces y malvadas pudieran existir. He perdido tres dedos de mi mano derecha, por lo que escribir es difícil. Debo hacer un inventario de mis suministros antes de que se reagrupen... Si puedo llegar a los árboles a lo largo del acantilado, estaré a salvo...
+
+...Desmayado. Puedo oírlos arrastrando los pies y babeando ahí afuera...
+
+...Esta será sin duda mi última entrada, ya que las criaturas zombis se están acercando... si encuentras esto, regresa... el único que hubiera podido derrotarlos se encuentra congelado en un lugar de honor en Arhok... dile a mi Padre que lo habría hecho sentir orgulloso...
+
+Knyrr de Arhok'";
+	}
+	[0x0000]
+	{
+		from = "The note you have found appears to be from the journal of Hardison Dohn; the former mayor of Arhok. 
+
+'I am a fool � a fool! How could I have been so blind? The beast Raks is another of those foul experiments of the Utraeans... damn their meddling! The beast may be the worst of the lot, far surpassing the horror of the Lost Queen... he has created an army of undead Zaurask and now I am hunted. For six days they have pursued me. The beasts are quite cunning, despite their appearance as mindless undead. I could swear that they have driven me into encounters with other creatures in an attempt to slow my flight. 
+
+'I must get back, my people need me... they are in danger and do not know how close the viper lies to their hearts. Rowan sent me here to my death. If I find him, he will pay dearly for his treachery! His smile hides death and his heart is black... If I should fall, may another take up my revenge and deal it swiftly to that snake, Rowan...'";
+		to = "La nota que ha encontrado parece ser del diario de Hardison Dohn; el exalcalde de Arhok.
+
+'¡Soy un tonto, un tonto! ¿Cómo pude haber estado tan ciego? La bestia Raks es otro de esos repugnantes experimentos de los Utreanos... ¡Maldita sea su intromisión! La bestia puede ser la peor de todas, superando con creces el horror de la Reina Perdida... ha creado un ejército de Zaurasks no-muertos y ahora estoy siendo cazado. Durante seis días me han perseguido. Las bestias son bastante astutas, a pesar de su apariencia de no-muertos sin cerebro. Podría jurar que me han llevado a encuentros con otras criaturas en un intento de frenar mi huida.
+
+Debo regresar, mi gente me necesita... están en peligro y no saben qué tan cerca de sus corazones se encuentra la víbora. Rowan me envió aquí a mi muerte. ¡Si lo encuentro, pagará cara su traición! Su sonrisa esconde la muerte y su corazón es oscuro... si llego a morir, que otro tome mi venganza y se la dé rápidamente a esa serpiente, Rowan...'";
+	}
+}

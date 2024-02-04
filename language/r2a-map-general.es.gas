@@ -1,0 +1,80 @@
+[t:0x0c0a,n:text]
+{
+    // Map
+	[0x0000]
+	{
+		from = "Return to Arhok";
+		to = "Regreso a Arhok";
+	}
+	[0x0000]
+	{
+		from = "Rescue the Hassat King";
+		to = "Rescata al Rey Hassat";
+	}
+
+    // Quests
+	[0x0000]
+	{
+		from = "Save the Town";
+		to = "Salva la Ciudad";
+	}
+	[0x0000]
+	{
+		from = "Speak to Rowan.";
+		to = "Habla con Rowan";
+	}
+	[0x0000]
+	{
+		from = "Speak to Kiira at the Mage's Guild for training";
+		to = "Habla con Kiira en el Gremio de Magos para recibir entrenamiento.";
+	}
+	[0x0000]
+	{
+		from = "Discover the source of the Hassat Threat";
+		to = "Descubra el origen de la amenaza Hassat";
+	}
+	[0x0000]
+	{
+		from = "Find the Hassat King";
+		to = "Encuentra al Rey Hassat";
+	}
+	[0x0000]
+	{
+		from = "You have saved the town!";
+		to = "¡Has salvado Arhok otra vez!";
+	}
+
+    // Signs
+	[0x0000]
+	{
+		from = "'Jungle'";
+		to = "'Jungla'";
+	}
+
+    // Command Messages
+	[0x0000]
+	{
+		from = "'I can sense you, human. You do not belong here. Return and await your fate with dignity.'";
+		to = "'Puedo sentirte, humano. No perteneces aquí. Vuelve y espera tu destino con dignidad.'";
+	}
+	[0x0000]
+	{
+		from = "'Those mangy cats are not so persistent as you. They at least have the sense to run away from their doom.''";
+		to = "'Esos gatos sarnosos no son tan persistentes como tú. Al menos tienen la sensatez de huir de su perdición.'";
+	}
+	[0x0000]
+	{
+		from = "'Your death awaits you below. Do you hope to survive? Fool.'";
+		to = "'Tu muerte te espera abajo. ¿Esperas sobrevivir? Insensato.'";
+	}
+	[0x0000]
+	{
+		from = "'You have discovered me and my designs. Are you ready to die?'";
+		to = "'Me has descubierto a mí y a mis planes. ¿Estás listo para morir?'";
+	}
+	[0x0000]
+	{
+		from = "WARNING! This map is not designed for Multiplayer Adventuring, problems may occur.";
+		to = "¡ADVERTENCIA! Este mapa no está diseñado para aventuras multijugador, pueden ocurrir problemas.";
+	}
+}
