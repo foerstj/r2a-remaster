@@ -13,6 +13,11 @@
 	}
 	[0x0000]
 	{
+		from = "Return to Arhok (revisited)";
+		to = "Rückkehr nach Arhok (revisited)";
+	}
+	[0x0000]
+	{
 		from = "Rescue the Hassat King";
 		to = "Rettet den Hassati-König";
 	}
