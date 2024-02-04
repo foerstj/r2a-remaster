@@ -1,7 +1,7 @@
 :: This script is supposed to be executed from your DS installation folder.
 
 :: name of map, case-sensitive
-set map_cs=ReturnToArhok
+set map_cs=Return to Arhok
 :: path of DS installation
 set ds=.
 

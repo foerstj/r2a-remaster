@@ -4,7 +4,7 @@
 :: name of map
 set map=r2a
 :: name of map, case-sensitive
-set map_cs=ReturnToArhok
+set map_cs=Return to Arhok
 :: path of DSLOA documents dir (where Bits are)
 set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
 :: path of DS installation

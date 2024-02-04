@@ -2,7 +2,7 @@
 {
 	description = "Rescue the Hassat King";
   b dev_only = false;
-	screen_name = "Return to Arhok";
+	screen_name = "Return to Arhok (remastered)";
 	timeofday = 12h0m;
   b use_node_mesh_index = true;
   b use_player_journal = false;
