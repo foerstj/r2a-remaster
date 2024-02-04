@@ -7,6 +7,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
   The internal name is *world/maps/r2a*.\
   The generated file name is *Dungeon Siege/DSLOA/Return to Arhok.dsmap*.\
   The ingame name is *Return to Arhok (remastered)*.
+- Added translations to German and Spanish
 
 ## How to build
 - Put TankCreator on the same folder level as your Dungeon Siege installation. Basically in the upper folder, you should have a "Dungeon Siege" folder, and a "TankCreator" folder.
