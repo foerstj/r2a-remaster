@@ -41,7 +41,7 @@
 	[0x0000]
 	{
 		from = "You have saved the town!";
-		to = "Vous avez sauvé la ville !";
+		to = "Vous avez sauvé la ville!";
 	}
 
     // Signs

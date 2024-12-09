@@ -73,7 +73,7 @@
 	[0x0000]
 	{
 		from = "These gates are locked, my friend. Several have left without returning. Each night we are beset by beasts. No one has seen them; they may lurk outside even now!";
-		to = "Ces portes sont verrouillées, mon ami. Plusieurs sont sortis sans revenir. Chaque nuit, nous sommes hantés par des bêtes. Personne ne l'a vue ; ils pourraient se cacher là-bas en ce moment !";
+		to = "Ces portes sont verrouillées, mon ami. Plusieurs sont sortis sans revenir. Chaque nuit, nous sommes hantés par des bêtes. Personne ne l'a vue ; ils pourraient se cacher là-bas en ce moment!";
 	}
 	[0x0000]
 	{
@@ -83,7 +83,7 @@
 	[0x0000]
 	{
 		from = "You showed them Zaurask a thing or two!";
-		to = "Eh bien, vous l'avez montré aux Zaurasks !";
+		to = "Eh bien, vous l'avez montré aux Zaurasks!";
 	}
 
     // Guard 2
@@ -140,7 +140,7 @@
     // Lharnob
 	[0x0000]
 	{
-		from = "Thank the heavens that the world has heroes such as you. So tell me�what will your next adventure be?";
+		from = "Thank the heavens that the world has heroes such as you. So tell me�what will your next adventure be?";
 		to = "Dieu merci pour les héros comme vous. Quelle est la prochaine aventure ?";
 	}
 
@@ -322,7 +322,7 @@
 	[0x0000]
 	{
 		from = "I'll help, but why don't you make up your mind?";
-		to = "Je suis heureux de vous aider, mais pourriez-vous prendre une décision ?";
+		to = "Je suis heureux de vous aider, mais pourriez-vous prendre une décision?";
 	}
 	[0x0000]
 	{
@@ -341,7 +341,7 @@
 	[0x0000]
 	{
 		from = "There's a storm moving in now; there's dark clouds to the west.";
-		to = "Une tempête arrive ; des nuages ​​sombres se trouvent à l’ouest.";
+		to = "Une tempête arrive ; des nuages sombres se trouvent à l’ouest.";
 	}
 	[0x0000]
 	{
@@ -407,7 +407,7 @@
 	[0x0000]
 	{
 		from = "Impressive. I didn't think you would get this far. You humans always seem to carry on longer than you should. When Raks awoke, he summoned me. The filthy Hassat kept our kind trapped in this fetid place, and Raks offered us a way out. We captured the Hassat King together, trapped him in Raks' lair below, and then Raks led the Zaurask Zombies against the Hassat. Without their King they were easy prey.\n\nNow we have our sights set on the human town, and we aren't going to let you stop us. Watch now, and prepare for your doom!";
-		to = "Impressionnant. Je ne pensais pas que tu irais aussi loin. Vous, les humains, semblez rester sur votre tâche plus longtemps que ce qui est bon pour vous. Quand Raks s'est réveillé, il m'a convoqué. Le sale Hassat a piégé notre espèce dans cet endroit puant, et Raks nous a proposé une issue. Ensemble, nous avons kidnappé le roi Hassat, l'avons emprisonné dans l'antre de Raks en dessous de nous, puis Raks a mené les zombies zaurasques contre les Hassati. Sans leur roi, ils étaient des proies faciles.\n\nMaintenant, nous avons jeté notre dévolu sur la cité humaine, et nous ne vous laisserons pas nous arrêter. Maintenant, faites attention et préparez-vous à votre perte !";
+		to = "Impressionnant. Je ne pensais pas que tu irais aussi loin. Vous, les humains, semblez rester sur votre tâche plus longtemps que ce qui est bon pour vous. Quand Raks s'est réveillé, il m'a convoqué. Le sale Hassat a piégé notre espèce dans cet endroit puant, et Raks nous a proposé une issue. Ensemble, nous avons kidnappé le roi Hassat, l'avons emprisonné dans l'antre de Raks en dessous de nous, puis Raks a mené les zombies zaurasques contre les Hassati. Sans leur roi, ils étaient des proies faciles.\n\nMaintenant, nous avons jeté notre dévolu sur la cité humaine, et nous ne vous laisserons pas nous arrêter. Maintenant, faites attention et préparez-vous à votre perte!";
 	}
 
     // Hassat King
@@ -424,6 +424,6 @@
 	[0x0000]
 	{
 		from = "Thank you. You act nobly, even though you have the aspect of the cursed humans. Although I have often railed against your kind, perhaps time enough has passed for us to live together. I shall return to my lands and tell my subjects of your help and your valor, and perhaps sometime in the future we can stand in battle side by side.";
-		to = "Je vous remercie. Vous agissez honorablement même si vous portez en vous l’aspect du peuple maudit. Bien que j'aie souvent critiqué votre race, peut-être que suffisamment de temps s'est écoulé pour que nous puissions vivre ensemble. Je retournerai dans mon pays et parlerai à mes sujets de votre aide et de votre héroïsme, et peut-être qu'un jour nous pourrons nous tenir côte à côte dans la bataille. »;
+		to = "Je vous remercie. Vous agissez honorablement même si vous portez en vous l’aspect du peuple maudit. Bien que j'aie souvent critiqué votre race, peut-être que suffisamment de temps s'est écoulé pour que nous puissions vivre ensemble. Je retournerai dans mon pays et parlerai à mes sujets de votre aide et de votre héroïsme, et peut-être qu'un jour nous pourrons nous tenir côte à côte dans la bataille.";
 	}
 }
