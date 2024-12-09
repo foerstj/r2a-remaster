@@ -1,0 +1,118 @@
+[t:0x040c,n:text]
+{
+	[0x0000]
+	{
+		from = "Werewolf";
+		to = "Werwolf";
+	}
+	[0x0000]
+	{
+		from = "Ice Beast";
+		to = "Eisbiest";
+	}
+	[0x0000]
+	{
+		from = "Salamander Claw";
+		to = "Salamanderklaue";
+	}
+	[0x0000]
+	{
+		from = "Salamander Archer";
+		to = "Salamanderschütze";
+	}
+	[0x0000]
+	{
+		from = "Salamander Caster";
+		to = "Salamander-Hexer";
+	}
+	[0x0000]
+	{
+		from = "Braak Lurker";
+		to = "Braak-Schleicher";
+	}
+	[0x0000]
+	{
+		from = "Hassat Lieutenant";
+		to = "Hassati-Leutnant";
+	}
+	[0x0000]
+	{
+		from = "Hassat King";
+		to = "Hassati-König";
+	}
+	[0x0000]
+	{
+		from = "Kron the Wide";
+		to = "Kron der Breite";
+	}
+	[0x0000]
+	{
+		from = "Guard Fielding";
+		to = "Wächter Fielding";
+	}
+	[0x0000]
+	{
+		from = "Melee Award";
+		to = "Nahkampfbonus";
+	}
+	[0x0000]
+	{
+		from = "Ranged Award";
+		to = "Fernkampfbonus";
+	}
+	[0x0000]
+	{
+		from = "Combat Magic Award";
+		to = "Kampfzauberbonus";
+	}
+	[0x0000]
+	{
+		from = "Nature Magic Award";
+		to = "Naturzauberbonus";
+	}
+	[0x0000]
+	{
+		from = "Salamander Long Bow";
+		to = "Salamander-Langbogen";
+	}
+	[0x0000]
+	{
+		from = "Zombie Bow";
+		to = "Zombie-Bogen";
+	}
+	[0x0000]
+	{
+		from = "Zombie Blade";
+		to = "Zombie-Klinge";
+	}
+	[0x0000]
+	{
+		from = "Experiment Logbook";
+		to = "Experimentenlogbuch";
+	}
+	[0x0000]
+	{
+		from = "Experiment Journal";
+		to = "Experimentenjournal";
+	}
+	[0x0000]
+	{
+		from = "Adventurer's Diary";
+		to = "Tagebuch des Abenteurers";
+	}
+	[0x0000]
+	{
+		from = "Written Note";
+		to = "Geschriebene Notiz";
+	}
+	[0x0000]
+	{
+		from = "Vault Door Pistons";
+		to = "Tresortür-Kolben";
+	}
+	[0x0000]
+	{
+		from = "These gates have been locked by order of the Mayor.";
+		to = "Diese Tore wurden auf Befehl des Bürgermeisters versperrt.";
+	}
+}
