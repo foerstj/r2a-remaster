@@ -43,6 +43,11 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\language" "%tmp%\Bits\language" *.es.gas /E
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.es.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
+:: Compile French language resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\language" "%tmp%\Bits\language" *.fr.gas /E
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.fr.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
+if %errorlevel% neq 0 pause
 
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
