@@ -23,3 +23,4 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - This map was created by Gas-Powered Games, not me. I'm just doing minor changes here.
 - German translation by me.
 - Spanish translation by Nekurrot25.
+- French translation by Jayijato.
