@@ -3,87 +3,87 @@
 	[0x0000]
 	{
 		from = "Werewolf";
-		to = "Werwolf";
+		to = "Loup-garou";
 	}
 	[0x0000]
 	{
 		from = "Ice Beast";
-		to = "Eisbiest";
+		to = "Bête de glace";
 	}
 	[0x0000]
 	{
 		from = "Salamander Claw";
-		to = "Salamanderklaue";
+		to = "Griffe de salamandre";
 	}
 	[0x0000]
 	{
 		from = "Salamander Archer";
-		to = "Salamanderschütze";
+		to = "Archer Salamandre";
 	}
 	[0x0000]
 	{
 		from = "Salamander Caster";
-		to = "Salamander-Hexer";
+		to = "Lanceur de salamandre";
 	}
 	[0x0000]
 	{
 		from = "Braak Lurker";
-		to = "Braak-Schleicher";
+		to = "Rôdeur Braak";
 	}
 	[0x0000]
 	{
 		from = "Hassat Lieutenant";
-		to = "Hassati-Leutnant";
+		to = "Lieutenant Hassat";
 	}
 	[0x0000]
 	{
 		from = "Hassat King";
-		to = "Hassati-König";
+		to = "Roi Hassat";
 	}
 	[0x0000]
 	{
 		from = "Kron the Wide";
-		to = "Kron der Breite";
+		to = "Kron le large";
 	}
 	[0x0000]
 	{
 		from = "Guard Fielding";
-		to = "Wächter Fielding";
+		to = "Gardien Fielding";
 	}
 	[0x0000]
 	{
 		from = "Melee Award";
-		to = "Nahkampfbonus";
+		to = "Bonus de mêlée";
 	}
 	[0x0000]
 	{
 		from = "Ranged Award";
-		to = "Fernkampfbonus";
+		to = "Bonus à distance";
 	}
 	[0x0000]
 	{
 		from = "Combat Magic Award";
-		to = "Kampfzauberbonus";
+		to = "Bonus aux sorts de combat";
 	}
 	[0x0000]
 	{
 		from = "Nature Magic Award";
-		to = "Naturzauberbonus";
+		to = "Bonus au sort naturel";
 	}
 	[0x0000]
 	{
 		from = "Salamander Long Bow";
-		to = "Salamander-Langbogen";
+		to = "Arc long Salamandre";
 	}
 	[0x0000]
 	{
 		from = "Zombie Bow";
-		to = "Zombie-Bogen";
+		to = "Arc zombie";
 	}
 	[0x0000]
 	{
 		from = "Zombie Blade";
-		to = "Zombie-Klinge";
+		to = "Lame zombie";
 	}
 	[0x0000]
 	{
@@ -93,26 +93,26 @@
 	[0x0000]
 	{
 		from = "Experiment Journal";
-		to = "Experimentenjournal";
+		to = "Journal de bord des expériences";
 	}
 	[0x0000]
 	{
 		from = "Adventurer's Diary";
-		to = "Tagebuch des Abenteurers";
+		to = "Journal de l'aventurier";
 	}
 	[0x0000]
 	{
 		from = "Written Note";
-		to = "Geschriebene Notiz";
+		to = "Note écrite";
 	}
 	[0x0000]
 	{
 		from = "Vault Door Pistons";
-		to = "Tresortür-Kolben";
+		to = "Piston de porte de chambre forte";
 	}
 	[0x0000]
 	{
 		from = "These gates have been locked by order of the Mayor.";
-		to = "Diese Tore wurden auf Befehl des Bürgermeisters versperrt.";
+		to = "Ces portes ont été verrouillées sur ordre du maire.";
 	}
 }

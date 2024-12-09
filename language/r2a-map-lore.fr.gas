@@ -4,14 +4,14 @@
 	{
 		from = "...Day 12 of the Month of the Falling Star...As with that damnable Queen creature the experiments are having the desired effect. The thing the handlers are now referring to as 'Rax' appears to be more aggressive. It must be bound and chained constantly or will cause great harm to those that approach it, even unto death. Four keepers have now fallen victim to the foul thing. It has taken considerable effort on my part to convince the others that it needs further study, rather than destruction. 
 
-...Day 23 of the Month of the Falling Star...A surprising side-effect of the experimental energies is that it seems to have the ability to spellcast, which is quite astonishing, as the creature has no speech or vocabulary we can identify. We have now been forced to sequester it in a dead zone, thereby hampering its spell use. This has aided my effort to keep the thing alive. These actions have convinced the council that our experiments are working to a degree and that the evolution of the species is something we are going to master. I myself have observed it watching us, which I count as a personal success of sorts, however unexpected it may be...it is obvious that the thing has somehow gained cognitive reasoning and intelligence � a trait somewhat lacking in its previous form. 
+...Day 23 of the Month of the Falling Star...A surprising side-effect of the experimental energies is that it seems to have the ability to spellcast, which is quite astonishing, as the creature has no speech or vocabulary we can identify. We have now been forced to sequester it in a dead zone, thereby hampering its spell use. This has aided my effort to keep the thing alive. These actions have convinced the council that our experiments are working to a degree and that the evolution of the species is something we are going to master. I myself have observed it watching us, which I count as a personal success of sorts, however unexpected it may be...it is obvious that the thing has somehow gained cognitive reasoning and intelligence  a trait somewhat lacking in its previous form. 
 
-...Day 14 of the Month of the Red Moon...I may have been mistaken, in that the creature does indeed have a vocabulary and a spoken language � ours! It has acquired an understanding, a rudimentary grasp, of our own tongue, and has even begun to communicate � albeit only to demand food, water or freedom. It is quite hard to believe that this creature before me now was  a few months prior (can it be so recent?!) a simple creature of the forest. Now it is a sentient being � the first of its kind...";
-		to = "...Tag 12 des Monats des Fallenden Sterns... Wie auch bei der vermaledeiten Königin-Kreatur zeigen die Experimente die erwünschte Wirkung. Das Ding, das die Abrichter jetzt 'Rax' nennen, scheint aggressiver. Es muss gebunden und angekettet bleiben, oder es wird denen, die sich ihm nähern, großen Schaden zufügen, bis hin zum Tod. Vier Wärter sind dem verdorbenen Ding schon zum Opfer gefallen. Nur mit beträchtlichem Aufwand konnte ich die anderen überzeugen, dass es weitere Forschung benötigt, statt Vernichtung.
+...Day 14 of the Month of the Red Moon...I may have been mistaken, in that the creature does indeed have a vocabulary and a spoken language  ours! It has acquired an understanding, a rudimentary grasp, of our own tongue, and has even begun to communicate  albeit only to demand food, water or freedom. It is quite hard to believe that this creature before me now was  a few months prior (can it be so recent?!) a simple creature of the forest. Now it is a sentient being  the first of its kind...";
+		to = "...Jour 12 du mois de l'Étoile filante... Comme pour la créature reine maudite, les expériences montrent l'effet souhaité. Ce que les entraîneurs appellent désormais « Rax » semble plus agressif. Il doit rester lié et enchaîné, sinon il causera de graves dommages, voire la mort, à ceux qui s'en approcheront. Quatre gardes ont déjà été victimes de la corruption. Ce n'est qu'au prix d'efforts considérables que j'ai pu convaincre les autres que des recherches plus poussées étaient nécessaires plutôt que la destruction.
 
-...Tag 23 des Monats des Fallenden Sterns... Ein überraschender Seiteneffekt der experimentellen Energien ist, dass es fähig zu sein scheint, Zauber zu wirken, was verblüffend ist, da die Kreatur keinerlei Sprache oder Vokabular besitzt. Wir waren nun gezwungen, es in einer Todeszone zu isolieren, um seine Zauberei zu unterbinden. Dies half meinen Bemühungen, das Ding am Leben zu halten. Diese Aktionen haben den Rat davon überzeugt, dass unsere Experimente zu einem gewissen Grad funktionieren, und dass wir es schaffen werden, die Evolution der Spezies zu vollenden. Ich selbst habe bemerkt, dass es uns beobachtet, was ich als eine Art persönlichen Erfolg ansehe, so unerwartet es auch sein mag... Es ist offensichtlich, dass das Ding kognitives Denken und Intelligenz besitzt - eine Eigenschaft, die in seiner früheren Form recht abwesend war.
+...Jour 23 du mois de l'étoile filante... Un effet secondaire surprenant des énergies expérimentales est qu'elle semble être capable de lancer des sorts, ce qui est surprenant puisque la créature n'a ni langage ni vocabulaire. Nous étions désormais obligés de l'isoler dans une zone de mort pour stopper sa magie. Cela a aidé mes efforts pour garder la chose en vie. Ces actions ont convaincu le Conseil que nos expériences fonctionnent dans une certaine mesure et que nous pourrons achever l'évolution de l'espèce. J'ai moi-même remarqué qu'elle nous observe, ce que je considère comme une sorte d'accomplissement personnel, aussi inattendu soit-il... Il est évident que la chose possède une pensée cognitive et une intelligence - une qualité qui était évidente dans sa forme de vie antérieure. était bien absent.
 
-...Tag 14 des Monats des Roten Mondes... Ich habe mich wohl geirrt, dahingehend dass die Kreatur tatsächlich Vokabular und eine gesprochene Sprache beherrscht - unsere! Es hat ein Verständnis, ein rudimentäres Gespür, unserer Sprache erlangt, und hat sogar begonnen zu kommunizieren - wenn auch nur um Futter, Wasser oder Freiheit zu verlangen. Es ist kaum zu glauben, dass diese Kreatur, die ich jetzt vor mir habe, noch vor einigen Monaten (kann es wirklich erst so kurz her sein?!) eine einfache Kreatur des Waldes war. Nun ist es ein fühlendes Wesen - das erste seiner Art...";
+...Jour 14 du mois de la Lune Rouge... Je suppose que je me trompais sur le fait que la créature possédait réellement un vocabulaire et une langue parlée - la nôtre ! Il a acquis une compréhension, un sens rudimentaire de notre langue, et a même commencé à communiquer – ne serait-ce que pour réclamer de la nourriture, de l'eau ou la liberté. Il est difficile de croire que cette créature que j'ai devant moi maintenant était il y a quelques mois à peine (est-ce vraiment possible que cela ait été si court ?!) une simple créature de la forêt. C'est désormais un être sensible, le premier du genre...";
 	}
 	[0x0000]
 	{
@@ -21,18 +21,18 @@
 
 Where did it go wrong? How did we fail? By all calculations the thing should be docile... Did we use the wrong formulae? How could we have failed?
 
-I hear them screaming, and the fighting seems much closer now, ... I cannot but hope that some fool did not tamper with the experiment � it is the only explanation for how things have gotten so out of hand. If only we could ...' 
+I hear them screaming, and the fighting seems much closer now, ... I cannot but hope that some fool did not tamper with the experiment  it is the only explanation for how things have gotten so out of hand. If only we could ...' 
 
 The rest is smeared with a great gout of ink, or some other dark sticky substance.";
 		to = "Die Seiten dieses Bandes sind zerrissen und blutverschmiert und scheinen Teil eines medizinischen Journals zu sein.
 
-'... Tag 5 des Monats der Ernte... Verderben. Die Kreatur ist los, reißt sich seinen Weg durch die unteren Verliese und kämpft sich an die Oberfläche. Mir bleibt wenig Zeit. Ich höre bereits die Soldaten unter seinen Klauen und Zaubern sterben.
+'... Jour 5 du mois de la récolte... Doom. La créature est en liberté, se frayant un chemin à travers les donjons inférieurs et se frayant un chemin jusqu'à la surface. Il me reste peu de temps. J'entends déjà les soldats mourir sous ses griffes et ses sorts.
 
-Wo haben wir versagt? Was haben wir falsch gemacht? Nach allen Berechnungen sollte das Ding zahm sein... Haben wir die falschen Formeln verwendet? Wie konnten wir versagen?
+Où avons-nous échoué ? Qu'avons-nous fait de mal ? Selon tous les calculs, cette chose devrait être apprivoisée... Avons-nous utilisé les mauvaises formules ? Comment pourrions-nous échouer ?
 
-Ich höre sie schreien, und die Kämpfe scheinen jetzt viel näher, ... Ich kann nur hoffen, dass irgendein Narr an dem Experiment herumgepfuscht hat - es ist die einzige Erklärung dafür, wie die Lage so außer Kontrolle geraten konnte. Wenn wir nur...'
+Je les entends crier, et les combats semblent beaucoup plus proches maintenant... Je ne peux qu'espérer qu'un imbécile a falsifié l'expérience - c'est la seule explication de la façon dont cette situation pourrait devenir incontrôlable. Si seulement nous...'
 
-Der Rest ist verschmiert mit einem großen Flecken Tinte, oder einer anderen dunklen, klebrigen Substanz.";
+Le reste est enduit d'une grande tache d'encre ou d'une autre substance sombre et collante.";
 	}
 	[0x0000]
 	{
@@ -47,29 +47,29 @@ Der Rest ist verschmiert mit einem großen Flecken Tinte, oder einer anderen dun
 ...This will no doubt be my last entry as the Zombie creatures are closing in... If you should find this, turn back... the only one we could hope to defeat them stands frozen in a place of honor in Arhok... tell my Father, I would have made him proud...' 
 
 Knyrr of Arhok'";
-		to = "Die Seiten dieses abgewetzten Tagebuches sind größtenteils unlesbar zerrissen, doch Ihr könnt noch einige Einträge entziffern...
+		to = "Les pages de ce journal usé sont pour la plupart déchirées de manière illisible, mais on peut encore déchiffrer quelques entrées...
 
-'Arhok liegt jetzt drei Tage hinter mir, und die Dschungel und unbekannten Lande der Uträer liegen vor mir... Was werde ich finden? Ruhm? Ehre? Unvorstellbare Reichtümer? Mein Name wird sicherlich in Erinnerung bleiben zusammen mit den größten Helden von Arhok!
+'Arhok est maintenant derrière moi depuis trois jours, et les jungles et les terres inconnues des Utrâns s'étendent devant moi... Que vais-je trouver ? Notoriété? Honneur? Des richesses inimaginables ? Mon nom restera certainement dans les mémoires aux côtés des plus grands héros d'Arhok !
 
-...Zu große Schmerzen um viel zu schreiben... Hätte nie gedacht, dass solch blutrünstige und böse Dinge existieren könnten. Ich habe drei Finger an meiner rechten Hand verloren, was das Schreiben erschwert. Ich muss meine Vorräte durchschauen bevor sie sich neu gruppieren... Wenn ich es zu den Bäumen entlang der Klippe schaffe bin ich vielleicht sicher...
+...Trop de douleur pour écrire beaucoup... Je n'aurais jamais pensé que des choses aussi sanguinaires et perverses pouvaient exister. J'ai perdu trois doigts de la main droite, ce qui rend l'écriture difficile. Je dois fouiller dans mes provisions avant qu'elles ne se regroupent... Si je parviens à atteindre les arbres le long de la falaise, je serai peut-être en sécurité...
 
-...Ohnmächtig geworden. Ich kann sie da draußen schlurfen und sabbern hören...
+... S'est évanoui. Je les entends remuer et baver là-bas...
 
-...Dies wird zweifellos mein letzter Eintrag, die Zombie-Kreaturen kommen näher... Wenn Ihr dies findet, dreht um... der einzige, der sie besiegen könnte, steht gefroren auf einem Ehrenplatz in Arhok... Sagt meinem Vater, ich hätte ihn stolz gemacht...
+...Ce sera sans aucun doute ma dernière entrée, les créatures zombies arrivent... Quand vous trouvez cela, retournez-vous... le seul qui pourrait les vaincre se tient figé dans une place d'honneur à Arhok.. . père, je l'ai rendu fier...
 
-Knyrr von Arhok'";
+Knyrr d'Arhok'";
 	}
 	[0x0000]
 	{
 		from = "The note you have found appears to be from the journal of Hardison Dohn; the former mayor of Arhok. 
 
-'I am a fool � a fool! How could I have been so blind? The beast Raks is another of those foul experiments of the Utraeans... damn their meddling! The beast may be the worst of the lot, far surpassing the horror of the Lost Queen... he has created an army of undead Zaurask and now I am hunted. For six days they have pursued me. The beasts are quite cunning, despite their appearance as mindless undead. I could swear that they have driven me into encounters with other creatures in an attempt to slow my flight. 
+'I am a fool  a fool! How could I have been so blind? The beast Raks is another of those foul experiments of the Utraeans... damn their meddling! The beast may be the worst of the lot, far surpassing the horror of the Lost Queen... he has created an army of undead Zaurask and now I am hunted. For six days they have pursued me. The beasts are quite cunning, despite their appearance as mindless undead. I could swear that they have driven me into encounters with other creatures in an attempt to slow my flight. 
 
 'I must get back, my people need me... they are in danger and do not know how close the viper lies to their hearts. Rowan sent me here to my death. If I find him, he will pay dearly for his treachery! His smile hides death and his heart is black... If I should fall, may another take up my revenge and deal it swiftly to that snake, Rowan...'";
-		to = "Die Notiz, die Ihr gefunden habt, scheint aus dem Tagebuch von Hardison Dhon zu stammen, dem früheren Bürgermeister von Arhok.
+		to = "La note que vous avez trouvée semble provenir du journal de Hardison Dhon, l'ancien maire d'Arhok.
 
-'Ich bin ein Narr... ein Narr! Wie konnte ich so blind sein? Das Biest, Raks, ist ein weiteres verdorbenes Experiment der Uträer... verflucht sei ihre Pfuscherei! Das Biest könnte gut das schlimmste von ihnen sein, es übertrifft den Schrecken der Verlorenen Königin bei weitem... Er hat eine Armee untoter Zaurasker erschaffen, und jetzt werde ich gejagt. Seit sechs Tagen verfolgen sie mich. Die Bestien sind gerissen, trotz ihres Anscheines stumpfsinniger Untoter. Ich könnte schwören, dass sie mich in Begegnungen mit anderen Kreaturen getrieben haben, um zu versuchen, meine Flucht zu verlangsamen.
+« Je suis un imbécile... un imbécile ! Comment pourrais-je être si aveugle ? La bête, Raks, est une autre expérience tordue d'Utr... maudit soit leur maladresse ! La bête pourrait bien être la pire d'entre elles, dépassant de loin la terreur de la Reine perdue... Il a créé une armée de Zaurascans morts-vivants, et maintenant je suis pourchassé. Ils me suivent depuis six jours. Les bêtes sont rusées, malgré leur apparence de morts-vivants ennuyeux. Je pourrais jurer qu’ils m’ont poussé à rencontrer d’autres créatures pour tenter de ralentir ma fuite.
 
-'Ich muss zurück, meine Leute brauchen mich... sie sind in Gefahr und wissen nicht, wie nah die Viper an ihrem Herzen liegt. Rowan hat mich hier in meinen Tod geschickt. Wenn ich ihn finde, wird er für seinen Verrat teuer bezahlen! Sein Lächeln versteckt den Tod und sein Herz ist schwarz... Wenn ich sterbe, möge ein anderer Rache für mich nehmen an dieser Schlange, Rowan...'";
+"Je dois rentrer, mon peuple a besoin de moi... ils sont en danger et ne savent pas à quel point la Vipère est proche de leur cœur. Rowan m'a envoyé ici jusqu'à ma mort. Si je le retrouve, il paiera cher sa trahison ! Son sourire cache la mort et son cœur est noir... Quand je mourrai, que quelqu'un d'autre se venge de ce serpent, Rowan...'";
 	}
 }
