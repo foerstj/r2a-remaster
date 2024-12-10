@@ -12,10 +12,10 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 
 ## How to build
 
-- Put TankCreator on the same folder level as your Dungeon Siege installation. Basically in the upper folder, you should have a "Dungeon Siege" folder, and a "TankCreator" folder.
-- Put this repo as "Bits" into your personal Dungeon Siege LoA folder (where the savegames & screenshots are).
-- Go into your Dungeon Siege installation folder and open CMD there.
-- %USERPROFILE%\Documents\Dungeon Siege LoA\Bits\build.bat
+- Provide environment variables:
+  - %DungeonSiege% - path to DS installation
+  - %TankCreator% - path to TC installation
+- Run the build.bat in the repo root
 
 ## Attribution
 
