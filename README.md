@@ -10,7 +10,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 
 ## What I did (revisit)
 The "revisited" map variant is based on the remaster, with these changes applied:
-- Added translations to German and Spanish.
+- Added translations to German, Spanish, and French.
 - Renamed map ingame to *Return to Arhok (revisited)*.
 
 ## How to build
