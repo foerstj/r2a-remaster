@@ -713,7 +713,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000001,1,5,-1,"out:black");
+				action* = fade_nodes(0x00000001,1,6,-1,"out:black");
 				action* = mood_change("map_expansion_a1_interior");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.200000,0.250000,1.200000,"on_every_enter");

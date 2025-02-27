@@ -12,6 +12,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 The "revisited" map variant is based on the remaster, with these changes applied:
 - Added translations to German, Spanish, and French.
 - Renamed map ingame to *Return to Arhok (revisited)*.
+- Fixed initial roof fade for Kron the Wide.
 
 ## How to build
 - Provide environment variables:
