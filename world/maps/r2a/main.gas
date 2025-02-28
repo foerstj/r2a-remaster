@@ -29,8 +29,8 @@
 		[regular]
 		{
 			screen_name = "Regular";
-			description = "Players of all levels can play here.";
-			required_level = 0;
+			description = "Players of level 10 or higher can play here.";
+			required_level = 10;
 		}
 	}
 }
