@@ -26,7 +26,7 @@
 				condition* = receive_world_message("we_req_activate",0,"on_first_message");
 			  f delay = 0.000000;
 			  b flip_flop = false;
-			  b multi_player = false;
+			  b multi_player = true;
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
@@ -92,6 +92,7 @@
 			[*]
 			{
 				action* = mood_change("dsx_xp_region_1");
+				action* = send_world_message("we_req_activate",0x00100077,0f,"default","every",0), delay(1), doc("update quest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_first_enter");
 			  f delay = 0.000000;
