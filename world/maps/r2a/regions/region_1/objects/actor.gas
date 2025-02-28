@@ -154,6 +154,11 @@
 	  f max_life = 127.4;
 	  f max_mana = 209;
 	}
+	[common]
+	{
+		dev_instance_text = "SP COMPANION";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -171,6 +176,35 @@
 	{
 	  q orientation = 0,0.777146,0,-0.629321;
 	  p position = 0.845199,-3.5,0.0595934,0x4bc2a5ad;
+	}
+}
+[t:xp_saul,n:0x00100435]
+{
+	[aspect]
+	{
+	  f max_life = 127.4;
+	  f max_mana = 209;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = saul_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777146,0,-0.629321;
+	  p position = 1.01589,-3.5,0.100555,0x4bc2a5ad;
 	}
 }
 [t:xp_reynard,n:0x00100231]
@@ -214,6 +248,11 @@
 	  f max_life = 156.8;
 	  f max_mana = 210;
 	}
+	[common]
+	{
+		dev_instance_text = "SP COMPANION";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -232,6 +271,35 @@
 	{
 	  q orientation = 0,0.909961,0,0.414693;
 	  p position = -0.198505,-2.95,2.89761,0xb49a4d27;
+	}
+}
+[t:xp_kron,n:0x00100434]
+{
+	[aspect]
+	{
+	  f max_life = 156.8;
+	  f max_mana = 210;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kron_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.909961,0,0.414693;
+	  p position = -0.350267,-2.95,3.01334,0xb49a4d27;
 	}
 }
 [t:xp_kiira,n:0x001000c0]
@@ -393,6 +461,11 @@
 	  f max_life = 245;
 	  f max_mana = 44;
 	}
+	[common]
+	{
+		dev_instance_text = "SP COMPANION";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -410,6 +483,35 @@
 	{
 	  q orientation = 0,0.814115,0,-0.580703;
 	  p position = 7.43737,0,1.29381,0xc122c998;
+	}
+}
+[t:xp_boris,n:0x00100437]
+{
+	[aspect]
+	{
+	  f max_life = 245;
+	  f max_mana = 44;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = boris_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814115,0,-0.580703;
+	  p position = 7.70007,0,1.40638,0xc122c998;
 	}
 }
 [t:xp_raab,n:0x00100103]
@@ -434,6 +536,11 @@
 	{
 	  f max_life = 176.4;
 	  f max_mana = 81;
+	}
+	[common]
+	{
+		dev_instance_text = "SP COMPANION";
+	  b is_multi_player = false;
 	}
 	[conversation]
 	{
@@ -482,5 +589,34 @@
 	{
 	  q orientation = 0,0.870356,0,0.492423;
 	  p position = 6.57395,-1.4,6.26201,0x0622b87d;
+	}
+}
+[t:xp_erin,n:0x00100436]
+{
+	[aspect]
+	{
+	  f max_life = 176.4;
+	  f max_mana = 81;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = erin_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.544639,0,0.838671;
+	  p position = -9.28138,-1.4,4.25452,0x0622b87d;
 	}
 }

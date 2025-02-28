@@ -409,6 +409,15 @@
 	  f scroll_rate = 20.0;
 	}
 }
+[saul_mp]
+{
+	[text*]
+	{
+		sample = s_v_xp_saul_mp;
+		screen_text = "I know that you have sacrificed your skills and life for this town, with little enough thanks.";
+	  	f scroll_rate = 20.000000;
+	}
+}
 [erin_0]
 {
 	[text*]
@@ -471,6 +480,15 @@
 		sample = s_v_xp_erin_rehire;
 		choice = potential_member;
 		screen_text = "Good thinking. You probably can't make it without me.";
+	  f scroll_rate = 20.0;
+	}
+}
+[erin_mp]
+{
+	[text*]
+	{
+		sample = s_v_xp_erin_mp;
+		screen_text = "Nothing ever happens in this town. I wish I had a grand adventure to go on.";
 	  f scroll_rate = 20.0;
 	}
 }
@@ -554,6 +572,15 @@
 	{
 		sample = s_v_a1_kron_07;
 		screen_text = "Much obliged for all your help!";
+	  f scroll_rate = 20.0;
+	}
+}
+[kron_mp]
+{
+	[text*]
+	{
+		sample = s_v_xp_kron_mp;
+		screen_text = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too.";
 	  f scroll_rate = 20.0;
 	}
 }
@@ -654,6 +681,15 @@
 		choice = potential_member;
 		sample = s_v_xp_boris_rehire;
 		screen_text = "I'm ready to hurt things for you. Just tell me which ones.";
+	  f scroll_rate = 20.0;
+	}
+}
+[boris_mp]
+{
+	[text*]
+	{
+		sample = s_v_xp_boris_mp;
+		screen_text = "My father says never to go on adventures with people who aren't experienced.";
 	  f scroll_rate = 20.0;
 	}
 }
