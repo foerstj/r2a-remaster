@@ -563,14 +563,3 @@
 	  p position = -2.40399,6.35262,0.976795,0xf6004001;
 	}
 }
-[t:cmd_region_message,n:0x0010041e]
-{
-	[placement]
-	{
-	  p position = -0.734457,0,0.111788,0x28ad8223;
-	}
-	[screen_report]
-	{
-		description = "WARNING! This map is not designed for Multiplayer Adventuring, problems may occur.";
-	}
-}
