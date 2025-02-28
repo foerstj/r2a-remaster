@@ -98,8 +98,10 @@ state Talk$
 			SiegeFx.SRunScript("transform_bear", m_Go$.Goid, m_Go$.Goid, "", NULL, WE_REQ_CAST);
 			
 			// evil rowan deletes good rowan
-			scid goodRowanScid$ = MakeScid(0x001000a1);
+			scid goodRowanScid$ = MakeScid(0x001000a1);  // singleplayer instance
 			SendWorldMessage( WE_REQ_DELETE, m_Go$.Goid, goodRowanScid$ );
+			scid goodRowanMpScid$ = MakeScid(0x00100433);  // multiplayer instance
+			SendWorldMessage( WE_REQ_DELETE, m_Go$.Goid, goodRowanMpScid$ );
 			
 			// @TODO?
 			// at this point rowan simply dopps into the player.
