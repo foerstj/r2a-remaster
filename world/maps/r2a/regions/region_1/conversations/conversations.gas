@@ -202,6 +202,25 @@
 	  	f scroll_rate = 20.0;
 	}
 }
+[rowan_mp]
+{
+	[text*]
+	{
+		order = 0;
+		sample = s_v_xp_rowan_mp_1;
+		screen_text = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.\n\nTake the North gate out of town. That's where those mangy cats are coming from.";
+	  	f scroll_rate = 20.000000;
+	  	quest_dialog = true;
+	  	activate_quest*	= xp_king,1;
+	  	activate_quest*	= xp_king,2;
+	}
+	[text*]
+	{
+		sample = s_v_xp_rowan_2_revisit;
+		screen_text = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
+	  	f scroll_rate = 20.0;
+	}
+}
 [lharnob_0]
 {
 	[text*]

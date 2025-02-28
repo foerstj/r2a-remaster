@@ -254,6 +254,11 @@
 }
 [t:xp_rowan,n:0x001000a1]
 {
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -266,6 +271,29 @@
 	[placement]
 	{
 	  p position = 3.029,0,-0.753603,0xe635b349;
+	}
+}
+[t:xp_rowan,n:0x00100433]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = rowan_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 3.00989,0,-1.00267,0xe635b349;
 	}
 }
 [t:xp_guard1,n:0x00100108]
