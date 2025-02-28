@@ -198,6 +198,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "AUTO SAVE";
 		[instance_triggers]
 		{
 			[*]
