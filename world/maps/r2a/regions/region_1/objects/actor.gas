@@ -94,6 +94,11 @@
 }
 [t:xp_moht,n:0x001000e8]
 {
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -130,6 +135,32 @@
 	{
 	  q orientation = 0,-1,0,-4.47035e-008;
 	  p position = -1.35638,0,1.51926,0xc6b0f420;
+	}
+}
+[t:xp_moht,n:0x00100438]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = moht_0_mp;
+			* = moht_2;
+			* = moht_finish;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_xp_moht_mp.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -0.362458,-1.90735e-006,1.67351,0xc6b0f420;
 	}
 }
 [t:xp_lharnob,n:0x0010006e]
@@ -304,6 +335,11 @@
 }
 [t:xp_kiira,n:0x001000c0]
 {
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -318,6 +354,31 @@
 	{
 	  q orientation = 0,0.999657,0,-0.0261771;
 	  p position = 0.26045,-1.5,0.892025,0x251f9f82;
+	}
+}
+[t:xp_kiira,n:0x00100439]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kiira_1_shop;
+			* = kiira_finish;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_xp_kiira_mp.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999657,0,-0.0261771;
+	  p position = 0.240282,-1.5,1.1229,0x251f9f82;
 	}
 }
 [t:xp_rowan,n:0x001000a1]

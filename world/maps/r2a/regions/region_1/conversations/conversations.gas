@@ -108,6 +108,22 @@
 	  f scroll_rate = 20.000000;
 	}
 }
+[moht_0_mp]
+{
+	[text*]
+	{
+	  i order = 0;
+		sample = s_v_xp_moht_0_mp;
+		screen_text = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.";
+	  f scroll_rate = 10.0000;
+	}
+	[text*]
+	{
+		sample = s_v_xp_moht_0_revisit;
+		screen_text = "You should go speak to Rowan. He will tell you of our plight.";
+	  f scroll_rate = 20.0;
+	}
+}
 [guard1_0]
 {
 	[text*]
