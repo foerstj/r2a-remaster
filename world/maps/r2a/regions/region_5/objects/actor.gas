@@ -20,6 +20,11 @@
 	{
 	  f scale_multiplier = 1.02976;
 	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -32,6 +37,53 @@
 	{
 	  q orientation = 0,0.999962,0,0.00872615;
 	  p position = 4.10792,-3.93405,1.13699,0x64449485;
+	}
+}
+[t:xp_hassat_king,n:0x0050005d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02976;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x00500017,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_talk_begin",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = king_5;
+			* = king_6_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_xp_hassat_king_mp.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999962,0,0.00872615;
+	  p position = 4.12767,-3.93405,1.43496,0x64449485;
 	}
 }
 [t:narrator,n:0x00500062]
