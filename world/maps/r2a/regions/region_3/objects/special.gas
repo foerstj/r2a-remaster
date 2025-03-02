@@ -722,10 +722,10 @@
 			{
 				action* = send_world_message("we_req_activate",0x002000D9,0f,"default","every",0);
 			  b can_self_destruct = true;
-				condition* = actor_within_bounding_box(6.300000,1.500000,0.250000,"on_first_enter");
+				condition* = actor_within_bounding_box(6.300000,1.500000,0.500000,"on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
-			  b multi_player = false;
+			  b multi_player = true;
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
