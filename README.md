@@ -13,6 +13,11 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Added translations to German, Spanish, and French.
 - Renamed map ingame to *Return to Arhok (revisited)*.
 - Fixed initial roof fade for Kron the Wide.
+- Enabled multiplayer mode, required level 10, start positions for 8 characters
+  - Skipped skill scrolls step, so that characters are not broken
+  - Made companions singleplayer-only
+  - Adapted quest forwarding & conversations; Moht does not give presents
+- Cleaned up unused tutorial tip
 
 ## How to build
 - Provide environment variables:
