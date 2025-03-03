@@ -68,6 +68,11 @@
 		from = "Well done! Another surpassing good adventure, I'd say!";
 		to = "Gut gemacht! Wieder ein herausragendes Abenteuer, würde ich sagen!";
 	}
+	[0x0000]
+	{
+		from = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.";
+		to = "Willkommen, O Held! Wir bedürfen Eurer erneut. Angriffe auf unsere Stadt in dunkler Nacht haben mehrere Einwohner getötet, und unser geliebter Bürgermeister, Hardison Dhon, wird vermisst. Niemand weiß, was passiert ist. Rowan hat fürs Erste die Pflichten des Bürgermeisters übernommen. Ich vermute, Ihr seid unsere beste Hoffnung auf Verteidigung.";
+	}
 
     // Guard 1
 	[0x0000]
@@ -135,6 +140,11 @@
 	{
 		from = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
 		to = "Das Nordtor ist die richtige Richtung... da scheinen diese Hassati herzukommen.";
+	}
+	[0x0000]
+	{
+		from = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.\n\nTake the North gate out of town. That's where those mangy cats are coming from.";
+		to = "Ihr seid also der berühmte Held von Arhok? So beeindruckend seht Ihr gar nicht aus. Wie dem auch sei, die Stadtbewohner glauben an Euch, und Ihr habt sie schon einmal gerettet.\n\nDie Stadt wird angegriffen, und ich weiß, es sind diese abscheulichen Hassati. Mein Vorgänger, Hardison, hat wenig unternommen, um die Verteidigungen der Stadt zu stärken, und nun sind wir so gut wie hilflos gegen diese wilden Plünderer. Wir haben keine Ahnung, warum sie uns angreifen, aber sie müssen gestoppt werden, bevor sie die Stadt zerstören.\n\nVerlasst die Stadt durch das Nordtor. Da kommen diese räudigen Katzen her.";
 	}
 
     // Lharnob
@@ -250,6 +260,11 @@
 		from = "A change of heart? Excellent. I will be a first rate adventurer.";
 		to = "Ihr habt Euch umentschieden? Exzellent. Ich werde ein ausgezeichneter Abenteurer sein.";
 	}
+	[0x0000]
+	{
+		from = "I know that you have sacrificed your skills and life for this town, with little enough thanks.";
+		to = "Ich weiß, dass Ihr Eure Fähigkeiten und euer Leben für diese Stadt geopfert habt, mit wenig Dank.";
+	}
 
     // Erin
 	[0x0000]
@@ -286,6 +301,11 @@
 	{
 		from = "Good thinking. You probably can't make it without me.";
 		to = "Gute Entscheidung. Ohne mich kriegt ihr's wohl nicht hin.";
+	}
+	[0x0000]
+	{
+		from = "Nothing ever happens in this town. I wish I had a grand adventure to go on.";
+		to = "Hier passiert nie etwas. Ich wünschte, ich könnte ein großes Abenteuer erleben.";
 	}
 
     // Kron
@@ -328,6 +348,11 @@
 	{
 		from = "Bah! Who needs you! I can take care of myself.";
 		to = "Bah! Wer braucht Euch schon? Ich kann mich um mich selber kümmern.";
+	}
+	[0x0000]
+	{
+		from = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too.";
+		to = "Ihr habt mir einmal ausgeholfen, und ich habe es nicht vergessen. Ich habe studiert. Genug mit dem Fallenstellen, habe ich mir gesagt. Wenn dieser Junge zu einem großen Abenteuer aufbrechen kann, kann ich das ja wohl auch.";
 	}
 
     // Syrd

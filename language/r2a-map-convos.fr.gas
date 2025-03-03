@@ -68,6 +68,11 @@
 		from = "Well done! Another surpassing good adventure, I'd say!";
 		to = "Bien joué! Encore une aventure exceptionnelle, je dirais !";
 	}
+	[0x0000]
+	{
+		from = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.";
+		to = "Bienvenue, ô héros ! Nous avons encore besoin de vous. Les attaques contre notre ville par une nuit noire ont tué plusieurs habitants et notre bien-aimé maire, Hardison Dhon, a disparu. Personne ne sait ce qui s'est passé. Rowan a pour l'instant assumé les fonctions de maire. Je soupçonne que vous êtes notre meilleur espoir de défense.";
+	}
 
     // Guard 1
 	[0x0000]
@@ -135,6 +140,11 @@
 	{
 		from = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
 		to = "La Porte Nord est la bonne direction... c'est de là que semblent venir ces Hassats.";
+	}
+	[0x0000]
+	{
+		from = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.\n\nTake the North gate out of town. That's where those mangy cats are coming from.";
+		to = "Alors vous êtes le célèbre héros d'Arhok ? Vous n'avez pas l'air si impressionnant. Quoi qu’il en soit, les habitants croient en vous et vous les avez déjà sauvés.\n\nLa ville est attaquée, et je sais que ce sont ces ignobles Hassats. Mon prédécesseur, Hardison, n'a pas fait grand-chose pour renforcer les défenses de la ville, et maintenant nous sommes pratiquement impuissants face à ces maraudeurs sauvages. Nous n'avons aucune idée de la raison pour laquelle ils nous attaquent, mais il faut les arrêter avant qu'ils ne détruisent la ville.\n\nQuittez la ville par la porte nord. C'est de là que viennent ces chats galeux.";
 	}
 
     // Lharnob
@@ -250,6 +260,11 @@
 		from = "A change of heart? Excellent. I will be a first rate adventurer.";
 		to = "Avez-vous changé d'avis ? Excellent. Je serai un excellent aventurier.";
 	}
+	[0x0000]
+	{
+		from = "I know that you have sacrificed your skills and life for this town, with little enough thanks.";
+		to = "Je sais que vous avez sacrifié vos compétences et vos vies pour cette ville sans grand merci.";
+	}
 
     // Erin
 	[0x0000]
@@ -286,6 +301,11 @@
 	{
 		from = "Good thinking. You probably can't make it without me.";
 		to = "Bonne décision. Vous ne pourrez probablement pas le faire sans moi.";
+	}
+	[0x0000]
+	{
+		from = "Nothing ever happens in this town. I wish I had a grand adventure to go on.";
+		to = "Il ne se passe jamais rien ici. J'aimerais pouvoir vivre une grande aventure.";
 	}
 
     // Kron
@@ -328,6 +348,11 @@
 	{
 		from = "Bah! Who needs you! I can take care of myself.";
 		to = "Bah ! De toute façon, qui a besoin de toi ? Je peux prendre soin de moi.";
+	}
+	[0x0000]
+	{
+		from = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too.";
+		to = "Vous m'avez aidé une fois et je ne l'ai pas oublié. J'ai étudié. Assez de piégeage, me suis-je dit. Si ce garçon peut vivre une grande aventure, alors moi aussi.";
 	}
 
     // Syrd

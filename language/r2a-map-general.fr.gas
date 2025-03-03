@@ -22,6 +22,13 @@
 		to = "Sauver le roi Hassat";
 	}
 
+    // Start positions etc
+	[0x0000]
+	{
+		from = "Players of level 10 or higher can play here.";
+		to = "Les joueurs de niveau 10 ou supérieur peuvent jouer ici.";
+	}
+
     // Quests
 	[0x0000]
 	{
