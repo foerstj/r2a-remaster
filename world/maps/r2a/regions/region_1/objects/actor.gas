@@ -104,7 +104,6 @@
 		[conversations]
 		{
 			* = moht_0;
-			* = moht_0_revisit;
 			* = moht_1;
 			* = moht_1_money;
 			* = moht_2;
@@ -263,7 +262,6 @@
 		{
 			* = guard2;
 			* = guard2_finish;
-			* = guard2_finish_revisit;
 		}
 	}
 	[placement]
@@ -394,7 +392,6 @@
 		{
 			* = rowan_1;
 			* = rowan_2;
-			* = rowan_4;
 		}
 	}
 	[placement]
