@@ -4574,14 +4574,9 @@
 }
 [t:tree_ice_pine_trunk_02,n:0x00100032]
 {
-	[aspect]
-	{
-	  f scale_multiplier = 1;
-	}
 	[placement]
 	{
-	  q orientation = 0.190809,0,0,0.981627;
-	  p position = -1.67333,0.416855,-1.18456,0x9c2d725c;
+	  p position = 2.55235,0,-1.58659,0x9c2d725c;
 	}
 }
 [t:tree_ice_pine_02,n:0x00100035]
