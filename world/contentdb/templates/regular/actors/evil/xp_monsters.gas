@@ -1640,6 +1640,7 @@
 		mana             	= 1;
 		max_mana         	= 1;
 		scale_base 			= 2.5;
+		textures:3=b_c_edm_rt-04;
 		[voice]
 		{
 			[attack]		{ priority = high;	* = s_e_attack_rector;  		}
