@@ -48,7 +48,7 @@ if %errorlevel% neq 0 pause
 
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\art" "%tmp%\Bits\art" /E /xf *.lqd20
+robocopy "%bits%\art" "%tmp%\Bits\art" /E /xf *.lqd20 /xf *.exe /xf *.psd
 robocopy "%bits%\sound" "%tmp%\Bits\sound" /E
 robocopy "%bits%\world\ai" "%tmp%\Bits\world\ai" /E
 robocopy "%bits%\world\contentdb" "%tmp%\Bits\world\contentdb" /E
