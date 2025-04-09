@@ -52,7 +52,7 @@ robocopy "%bits%\art" "%tmp%\Bits\art" /E
 robocopy "%bits%\sound" "%tmp%\Bits\sound" /E
 robocopy "%bits%\world\ai" "%tmp%\Bits\world\ai" /E
 robocopy "%bits%\world\contentdb" "%tmp%\Bits\world\contentdb" /E
-robocopy "%bits%\world\global" "%tmp%\Bits\world\global" /E
+robocopy "%bits%\world\global" "%tmp%\Bits\world\global" /E /xd map_expansion
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
