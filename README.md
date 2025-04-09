@@ -18,6 +18,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
   - Made companions singleplayer-only
   - Adapted quest forwarding & conversations; Moht does not give presents
   - Added/fixed player world locations
+- Included fix for overwritten Rector texture from https://www.nexusmods.com/dungeonsiege1/mods/65
 - Minor fixes
   - Cleaned up unused tutorial tip
   - Fixed tilted tree trunk behind hero's house
