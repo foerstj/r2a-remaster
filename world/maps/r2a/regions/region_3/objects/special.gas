@@ -527,6 +527,35 @@
 	  p position = -3.26824,0.29,0.397762,0xf57945ba;
 	}
 }
+[t:trigger_generic,n:0x0030027e]
+{
+	[common]
+	{
+		dev_instance_text = "PWL";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("island");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 3.33357,0,1.36453,0xf57945ba;
+	}
+}
 [t:trigger_generic,n:0x00300111]
 {
 	[common]
@@ -576,21 +605,6 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("arhok");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.500000,1.000000,2.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

@@ -5,4 +5,9 @@
 		id = 1;
 		screen_name = "Arhok";
 	}
+	[t:location,n:island]
+	{
+		id = 2;
+		screen_name = "the Island of the Utraeans";
+	}
 }
