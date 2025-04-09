@@ -17,7 +17,11 @@ The "revisited" map variant is based on the remaster, with these changes applied
   - Skipped skill scrolls step, so that characters are not broken
   - Made companions singleplayer-only
   - Adapted quest forwarding & conversations; Moht does not give presents
-- Cleaned up unused tutorial tip
+  - Added/fixed player world locations
+- Minor fixes
+  - Cleaned up unused tutorial tip
+  - Fixed tilted tree trunk behind hero's house
+  - Made some terrain nodes non-camera-blocking
 
 ## How to build
 - Provide environment variables:
