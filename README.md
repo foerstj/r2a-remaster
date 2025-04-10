@@ -20,6 +20,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Included fix for overwritten Rector texture from https://www.nexusmods.com/dungeonsiege1/mods/65
 - Fixed initial roof fade for Kron the Wide
 - Made quest forward to final message
+- Slower mood change during teleportation - looks better esp. with SeeFar
 - Minor fixes
   - Cleaned up unused tutorial tip
   - Fixed tilted tree trunk behind hero's house
