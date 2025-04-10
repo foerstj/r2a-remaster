@@ -1,0 +1,4 @@
+# ignore stuff in all subfolders...
+/*/
+# ...except r2a
+!/r2a/
