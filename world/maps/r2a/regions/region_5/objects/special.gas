@@ -229,13 +229,14 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("dsx_xp_region_5");
 			  b can_self_destruct = true;
-				condition* = actor_within_bounding_box(2.250000,0.500000,4.250000,"on_every_enter");
+				condition* = actor_within_bounding_box(4.000000,1.000000,16.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
