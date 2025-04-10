@@ -1,4 +1,4 @@
-[mood_setting*]
+[mood_setting*]  // region 1
 {
   b interior = false;
 	mood_name = dsx_xp_region_1;
@@ -82,7 +82,7 @@
 		}
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 2
 {
   b interior = false;
 	mood_name = dsx_xp_region_2;
@@ -171,7 +171,7 @@
 	  f wind_velocity = 2.500000;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 3
 {
   b interior = false;
 	mood_name = dsx_xp_region_3;
@@ -209,7 +209,7 @@
 	  f wind_velocity = 0.700000;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 3 - 2
 {
   b interior = false;
 	mood_name = dsx_xp_region_3-2;
@@ -247,7 +247,7 @@
 	  f wind_velocity = 0.700000;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 3 - 3
 {
   b interior = false;
 	mood_name = dsx_xp_region_3-3;
@@ -285,7 +285,7 @@
 	  f wind_velocity = 0.700000;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 4
 {
   b interior = true;
 	mood_name = dsx_xp_region_4;
@@ -313,7 +313,7 @@
 		standard_track = s_m_crypts_01;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 4 - no ambient
 {
   b interior = true;
 	mood_name = dsx_xp_region_4_noambient;
@@ -341,7 +341,7 @@
 		standard_track = s_m_crypts_01;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 5
 {
   b interior = true;
 	mood_name = dsx_xp_region_5;
@@ -369,7 +369,7 @@
 		standard_track = s_m_crypts_01;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // region 5 - no ambient
 {
   b interior = true;
 	mood_name = dsx_xp_region_5_noambient;

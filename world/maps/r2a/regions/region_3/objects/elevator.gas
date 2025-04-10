@@ -51,11 +51,11 @@
 	  x elevator_node = 0xD274AB66;
 	  f location1_arrived_at_lv2_delay = 0;
 	  x location1_arrived_at_lv2_scid = 0x0030012C;
-		location1_moving_to_lv1_actioninfo = "dsx_xp_region_3";
+		location1_moving_to_lv1_actioninfo = "dsx_xp_region_3_teleport";
 		location1_moving_to_lv2_actioninfo = "map_expansion_teleport_up";
 	  f location1_moving_to_lv2_delay = 1;
 	  x location1_moving_to_lv2_scid = 0x0030018F;
-		location2_moving_to_lv1_actioninfo = "dsx_xp_region_2";
+		location2_moving_to_lv1_actioninfo = "dsx_xp_region_2_teleport";
 		location2_moving_to_lv2_actioninfo = "map_expansion_teleport_up";
 		material = "hub";
 	  x other_elevator = 0x0020001A;

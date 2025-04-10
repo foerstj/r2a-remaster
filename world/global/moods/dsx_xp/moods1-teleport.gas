@@ -1,0 +1,127 @@
+[mood_setting*]  // region 2 - teleport
+{
+  b interior = false;
+	mood_name = dsx_xp_region_2_teleport;
+  f transition_time = 20.000000;  // slower transition
+	[fog]
+	{
+	  x fog_color = 0xFFA5BBCB;
+	  f fog_density = 1.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 15.000000;
+	  f fog_near_dist = 15.000000;
+	}
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 45.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = ;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = rt_forest;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_arhok;
+	}
+	[snow]
+	{
+	  f snow_density = 450.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xff000000;
+		}
+		[05h00m]
+		{
+			color = 0xff1a1a00;
+		}
+		[06h00m]
+		{
+			color = 0xff66330d;
+		}
+		[07h00m]
+		{
+			color = 0xffb39a40;
+		}
+		[08h00m]
+		{
+			color = 0xffb3b3b3;
+		}
+		[10h00m]
+		{
+			color = 0xfff0f0ff;
+		}
+		[12h00m]
+		{
+			color = 0xffffffff;
+		}
+		[19h00m]
+		{
+			color = 0xffb39a9a;
+		}
+		[20h00m]
+		{
+			color = 0xff66334d;
+		}
+		[21h00m]
+		{
+			color = 0xff330d40;
+		}
+		[22h00m]
+		{
+			color = 0xff000000;
+		}
+	}
+	[wind]
+	{
+	  f wind_direction = 3.140000;
+	  f wind_velocity = 2.500000;
+	}
+}
+[mood_setting*]  // region 3 - teleport
+{
+  b interior = false;
+	mood_name = dsx_xp_region_3_teleport;
+  f transition_time = 20.000000;  // slower transition
+	[fog]
+	{
+	  x fog_color = 0xFF5A695A;
+	  f fog_density = 0.250000;
+	  f fog_far_dist = 55.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 40.000000;
+	  f fog_near_dist = 40.000000;
+	}
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 45.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_wind_mines;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = rt_mountains;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_dark_jungle_theme;
+	}
+	[wind]
+	{
+	  f wind_direction = 2.000000;
+	  f wind_velocity = 0.700000;
+	}
+}
