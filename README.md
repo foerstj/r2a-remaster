@@ -12,13 +12,14 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 The "revisited" map variant is based on the remaster, with these changes applied:
 - Added translations to German, Spanish, and French.
 - Renamed map ingame to *Return to Arhok (revisited)*.
-- Fixed initial roof fade for Kron the Wide.
 - Enabled multiplayer mode, required level 10, start positions for 8 characters
   - Skipped skill scrolls step, so that characters are not broken
   - Made companions singleplayer-only
   - Adapted quest forwarding & conversations; Moht does not give presents
   - Added/fixed player world locations
 - Included fix for overwritten Rector texture from https://www.nexusmods.com/dungeonsiege1/mods/65
+- Fixed initial roof fade for Kron the Wide
+- Made quest forward to final message
 - Minor fixes
   - Cleaned up unused tutorial tip
   - Fixed tilted tree trunk behind hero's house
