@@ -56,6 +56,8 @@
 		{
 			[*]
 			{
+				action* = change_quest_state("xp_king","active",5), delay(1);
+				action* = change_quest_state("xp_king","active",6), delay(1);
 				action* = change_quest_state("xp_king","completed",6), delay(1);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_first_message");
