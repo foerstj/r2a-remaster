@@ -28,6 +28,16 @@
 		from = "Players of level 10 or higher can play here.";
 		to = "Jugadores de nivel 10 o más pueden jugar aquí.";
 	}
+	[0x0000]
+	{
+		from = "Must be level 60 or higher to accept this challenge.";
+		to = "Debes estar en el nivel 60 o superior para aceptar este reto.";
+	}
+	[0x0000]
+	{
+		from = "You must be level 87 or higher to attempt this feat.";
+		to = "Debes estar en el nivel 87 o superior para intentar esta hazaña.";
+	}
 
     // Quests
 	[0x0000]

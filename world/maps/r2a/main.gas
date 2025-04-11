@@ -32,5 +32,19 @@
 			description = "Players of level 10 or higher can play here.";
 			required_level = 10;
 		}
+
+		[veteran]
+		{
+			screen_name = "Veteran";
+			description = "Must be level 60 or higher to accept this challenge.";
+			required_level = 60;
+		}
+
+		[elite]
+		{
+			screen_name = "Elite";
+			description = "You must be level 87 or higher to attempt this feat.";
+			required_level = 87;
+		}
 	}
 }

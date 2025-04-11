@@ -28,6 +28,16 @@
 		from = "Players of level 10 or higher can play here.";
 		to = "Spieler ab Stufe 10 können hier teilnehmen.";
 	}
+	[0x0000]
+	{
+		from = "Must be level 60 or higher to accept this challenge.";
+		to = "Für diese Herausforderung ist mindestens Stufe 60 erforderlich.";
+	}
+	[0x0000]
+	{
+		from = "You must be level 87 or higher to attempt this feat.";
+		to = "Für diese Tat ist mindestens Stufe 87 erforderlich.";
+	}
 
     // Quests
 	[0x0000]
