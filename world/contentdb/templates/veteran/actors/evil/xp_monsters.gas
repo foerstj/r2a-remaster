@@ -1,0 +1,2081 @@
+[t:template,n:2W_xp_werewolf]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_werewolf";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 10, 0;
+			dexterity = 15, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_edm_ww_pos_1;
+		[textures]
+		{
+			0 = b_c_edm_arctic_werewolf;
+		}
+		experience_value = 42981;
+		life = 1063;
+		max_life = 1086;
+		material = flesh;
+		draw_shadow = false;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_wolf;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_zombie_ground_SED;
+			}
+			[hit_critical]
+			{
+				priority = low;
+				* = s_e_hit_wolf_SED;
+			}
+			[hit_glance]
+			{
+				priority = low;
+				* = s_e_hit_wolf_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_wolf_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 274;
+		damage_min = 176;
+	}
+	[body]
+	{
+		avg_move_velocity = 2.5;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = Bip01_Spine1;
+			body_posterior = bip01_pelvis;
+			kill_bone = Bip01_Spine1;
+		}
+		[weapon_scales]
+		{
+			as_single_melee = 1.5, 1.5, 1.5;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_ww_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+					01 = at-02;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = ds;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dsf;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = wl;
+				}
+			}
+		}
+	}
+	[common]
+	{
+		screen_name = "Werewolf";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 585;
+	}
+	[mind]
+	{
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+			? actor_joins_existing_party	= true;
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+[t:template,n:2W_xp_rune_guardian]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_rune_guardian";
+	specializes = 2W_rune_guardian_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 26, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 52, 0;
+		}
+	}
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_ecm_rg-02;
+		}
+		scale_base = 1.0;
+		experience_value = 42854;
+		life = 1020;
+		max_life = 1043;
+		material = ice;
+		[voice]
+		{
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_rune_guardian_SED;
+			}
+			[die]
+			{
+				priority = high;
+				* = s_e_die_rune_guardian_SED;
+			}
+			[hit_critical]
+			{
+				priority = low;
+				* = s_e_hit_rune_guardian_SED;
+			}
+			[hit_glance]
+			{
+				priority = low;
+				* = s_e_hit_rune_guardian_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_rune_guardian_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 265;
+		damage_min = 171;
+	}
+	[defend]
+	{
+		defense = 569;
+	}
+	[common]
+	{
+		screen_name = "Ice Beast";
+		membership = monster;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 34983;
+					max = 62008;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.1;
+					il_main = #weapon/133-144;
+					il_main = #armor/206-275;
+					il_main = #*/132-143;
+				}
+				[oneof*]
+				{
+					chance = 0.005;
+					il_main = #weapon/-rare(1)/133-146;
+					il_main = #armor/-rare(1)/247-275;
+					il_main = #*/-rare(1)/132-145;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_chitterskrag_baby]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_chitterskrag_baby";
+	specializes = 2W_dsx_chitterskrag_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_edm_chs_pos_1;
+		[textures]
+		{
+			0 = b_c_edm_chs_xp;
+		}
+		experience_value = 42746;
+		life = 889;
+		max_life = 911;
+		scale_base = 0.35;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_baby_chitterskrag_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_baby_chitterskrag_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 277;
+		damage_min = 181;
+	}
+	[common]
+	{
+		screen_name = "Immature Chitterskrag";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 565;
+	}
+	[body]
+	{
+		avg_move_velocity = 5;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+		}
+	}
+}
+[t:template,n:2W_xp_chitterskrag_ranged]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_chitterskrag_ranged";
+	specializes = 2W_dsx_chitterskrag_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			combat_magic = 50, 0;
+			nature_magic = 51, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_edm_chs_pos_2;
+		[textures]
+		{
+			0 = b_c_edm_chs_xp;
+		}
+		experience_value = 42854;
+		life = 986;
+		max_life = 1008;
+		mana = 107;
+		max_mana = 110;
+		scale_base = 1.0;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 267;
+		damage_min = 178;
+	}
+	[common]
+	{
+		screen_name = "Spewing Chitterskrag";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 603;
+	}
+	[body]
+	{
+		avg_move_velocity = 2.5;
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_chs_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+					01 = at-02;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = ds;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dsf;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = rl;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = mg;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+		?actor_joins_existing_party		= true;
+		actor_weapon_preference = WP_MAGIC;
+		actor_auto_switches_to_magic = true;
+		actor_auto_switches_to_karate = false;
+		actor_auto_switches_to_melee = false;
+		personal_space_range = 0.75;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = xp_spell_chitterskrag;
+		}
+		[pcontent]
+		{
+		}
+	}
+}
+[t:template,n:2W_xp_chitterskrag_melee]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_chitterskrag_melee";
+	specializes = 2W_dsx_chitterskrag_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_edm_chs_pos_1;
+		[textures]
+		{
+			0 = b_c_edm_chs_xp;
+		}
+		experience_value = 42962;
+		life = 1069;
+		max_life = 1091;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 294;
+		damage_min = 194;
+	}
+	[common]
+	{
+		screen_name = "Chitterskrag";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 622;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+		}
+	}
+}
+[t:template,n:2W_xp_zombie_base]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_zombie_base";
+	specializes = 2W_base_zaurask;
+	[aspect]
+	{
+		model = m_c_eam_zzomb;
+		[textures]
+		{
+			0 = b_c_eam_zzomb;
+		}
+		experience_value = 42854;
+		material = flesh;
+	}
+	[body]
+	{
+		avg_move_velocity = 1.4;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = bip01_spine2;
+			body_posterior = bip01_pelvis;
+			kill_bone = bip01_spine2;
+			shield_bone = shield_grip;
+			weapon_bone = weapon_grip;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_eam_zaurask_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,5,6;
+				skrit = select_attack;
+				[anim_files]
+				{
+					0mid = at;
+					high = at-01;
+					loww = at-02;
+					extr = at-03;
+				}
+				[anim_durations]
+				{
+					fs0 = 1.5;
+					fs1 = 1.5;
+					fs2 = 1.5;
+					fs6 = 1.0;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0,1,2,5,6;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = ds;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,5,6;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = 0,1,2,5,6;
+				skrit = select_transition;
+				[anim_files]
+				{
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0,1,2,5,6;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dsf;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,6;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = limp;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0,5;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = mg;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_zombie_karate]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_zombie_karate";
+	specializes = 2W_xp_zombie_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		life = 979;
+		max_life = 1001;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_zaurask_zombie_01_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_zaurask_zombie_01_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_zaurask_zombie_1_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 289;
+		damage_min = 183;
+	}
+	[body]
+	{
+		avg_move_velocity = 1.3;
+		[weapon_scales]
+		{
+			as_single_melee = 1.0, 1.0, 1.0;
+		}
+	}
+	[common]
+	{
+		screen_name = "Zaurask Zombie";
+		membership = monster;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie_karate_die");
+				condition* = receive_world_message("WE_KILLED");
+				single_shot = true;
+			}
+		}
+	}
+	[defend]
+	{
+		defense = 603;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 34983;
+					max = 62008;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.15;
+					il_main = #weapon/136-144;
+					il_main = #armor/206-275;
+					il_main = #*/135-143;
+				}
+				[oneof*]
+				{
+					chance = 0.0075;
+					il_main = #weapon/-rare(1)/138-149;
+					il_main = #armor/-rare(1)/247-330;
+					il_main = #*/-rare(1)/137-148;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+[t:template,n:2W_xp_zombie_archer]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_zombie_archer";
+	specializes = 2W_xp_zombie_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			ranged = 52, 0;
+		}
+	}
+	[aspect]
+	{
+		life = 979;
+		max_life = 1001;
+		scale_base = 1.0;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_zaurask_zombie_03_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_zaurask_zombie_03_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_zaurask_zombie_1_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 271;
+		damage_min = 174;
+	}
+	[body]
+	{
+		[weapon_scales]
+		{
+			as_single_melee = 1.0, 1.0, 1.0;
+		}
+	}
+	[common]
+	{
+		screen_name = "Zaurask Zombie Archer";
+		membership = monster;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie_archer");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie_archer_die");
+				condition* = receive_world_message("WE_KILLED");
+				single_shot = true;
+			}
+		}
+	}
+	[defend]
+	{
+		defense = 603;
+	}
+	[inventory]
+	{
+		spew_equipped_kill_count = <ignore>;
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+		[equipment]
+		{
+			es_shield_hand = bw_xp_zombie;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 34983;
+					max = 62008;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.15;
+					il_main = #weapon/136-144;
+					il_main = #armor/206-275;
+					il_main = #*/135-143;
+				}
+				[oneof*]
+				{
+					chance = 0.0075;
+					il_main = #weapon/-rare(1)/138-149;
+					il_main = #armor/-rare(1)/247-330;
+					il_main = #*/-rare(1)/137-148;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_auto_switches_to_melee = false;
+		actor_auto_switches_to_ranged = true;
+		actor_auto_uses_stored_items = false;
+		actor_weapon_preference = WP_RANGED;
+	}
+}
+[t:template,n:2W_xp_zombie_sword]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_zombie_sword";
+	specializes = 2W_xp_zombie_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_zzomb;
+		}
+		experience_value = 42962;
+		life = 1079;
+		max_life = 1102;
+		scale_base = 1;
+		material = flesh;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_zaurask_zombie_02_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_zaurask_zombie_02_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_zaurask_zombie_2_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 308;
+		damage_min = 194;
+	}
+	[body]
+	{
+		avg_move_velocity = 1.2;
+		[weapon_scales]
+		{
+			as_single_melee = 1.15, 1.15, 1.15;
+		}
+	}
+	[common]
+	{
+		screen_name = "Zaurask Zombie Stinger";
+		membership = monster;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie_sword");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("zaurask_zombie_sword_die");
+				condition* = receive_world_message("WE_KILLED");
+				single_shot = true;
+			}
+		}
+	}
+	[defend]
+	{
+		defense = 609;
+	}
+	[inventory]
+	{
+		spew_equipped_kill_count = <ignore>;
+		[equipment]
+		{
+			es_weapon_hand = ss_g_c_bl_1h_fun_zaur_xp;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.4;
+					il_main = #weapon/138-146;
+					il_main = #armor/211-289;
+					il_main = #*/137-145;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/-rare(1)/146-156;
+					il_main = #armor/-rare(1)/260-345;
+					il_main = #*/-rare(1)/145-154;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-unique(2)/146-156;
+					il_main = #armor/-unique(2)/260-345;
+					il_main = #*/-unique(2)/145-154;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+[t:template,n:2W_xp_salamander_red]
+{
+	category_name = "2W_evil_a";
+	doc = "2W_xp_salamander_red";
+	specializes = 2W_zaurask_ranged_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 10, 0;
+			dexterity = 15, 0;
+			melee = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 1.0;
+		experience_value = 43037;
+		life = 1100;
+		max_life = 1122;
+		[textures]
+		{
+			0 = b_c_edm_zaurask_salimander-01;
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 303;
+		damage_min = 206;
+	}
+	[common]
+	{
+		screen_name = "Salamander Claw";
+	}
+	[defend]
+	{
+		defense = 633;
+	}
+	[inventory]
+	{
+		spew_equipped_kill_count = <ignore>;
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+		[equipment]
+		{
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 35036;
+					max = 62059;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.15;
+					il_main = #weapon/138-146;
+					il_main = #armor/207-289;
+					il_main = #*/137-145;
+				}
+				[oneof*]
+				{
+					chance = 0.0075;
+					il_main = #weapon/-rare(1)/141-153;
+					il_main = #armor/-rare(1)/247-345;
+					il_main = #*/-rare(1)/140-151;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+	}
+}
+[t:template,n:2W_xp_salamander_blue]
+{
+	category_name = "2W_evil_a";
+	doc = "2W_xp_salamander_blue";
+	specializes = 2W_zaurask_ranged_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 10, 0;
+			dexterity = 15, 0;
+			ranged = 52, 0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 1.0;
+		experience_value = 42981;
+		life = 997;
+		max_life = 1020;
+		[textures]
+		{
+			0 = b_c_edm_zaurask_salimander-03;
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 272;
+		damage_min = 178;
+	}
+	[common]
+	{
+		screen_name = "Salamander Archer";
+	}
+	[defend]
+	{
+		defense = 585;
+	}
+	[inventory]
+	{
+		spew_equipped_kill_count = <ignore>;
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+		[equipment]
+		{
+			es_shield_hand = bw_xp_salamander;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 35036;
+					max = 62059;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/141-149;
+					il_main = #armor/214-302;
+					il_main = #*/140-148;
+				}
+				[oneof*]
+				{
+					chance = 0.01;
+					il_main = #weapon/-rare(1)/149-158;
+					il_main = #armor/-rare(1)/260-358;
+					il_main = #*/-rare(1)/148-156;
+				}
+				[oneof*]
+				{
+					chance = 0.005;
+					il_main = #weapon/-unique(2)/149-158;
+					il_main = #armor/-unique(2)/260-358;
+					il_main = #*/-unique(2)/148-156;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_auto_switches_to_melee = false;
+		actor_auto_switches_to_ranged = true;
+		actor_auto_uses_stored_items = false;
+		actor_weapon_preference = WP_RANGED;
+	}
+}
+[t:template,n:2W_xp_salamander_grey]
+{
+	category_name = "2W_evil_a";
+	doc = "2W_xp_salamander_grey";
+	specializes = 2W_zaurask_ranged_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 28, 0;
+			intelligence = 10, 0;
+			dexterity = 15, 0;
+			combat_magic = 50, 0;
+			nature_magic = 51, 0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 1.0;
+		experience_value = 42779;
+		life = 1011;
+		max_life = 1034;
+		mana = 107;
+		max_mana = 110;
+		[textures]
+		{
+			0 = b_c_edm_zaurask_salimander-02;
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 263;
+		damage_min = 174;
+	}
+	[common]
+	{
+		screen_name = "Salamander Caster";
+	}
+	[defend]
+	{
+		defense = 557;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = xp_spell_salamander;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 35036;
+					max = 62059;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.1;
+					il_main = #weapon/136-146;
+					il_main = #armor/207-289;
+					il_main = #*/135-145;
+				}
+				[oneof*]
+				{
+					chance = 0.005;
+					il_main = #weapon/-rare(1)/133-149;
+					il_main = #armor/-rare(1)/247-289;
+					il_main = #*/-rare(1)/132-148;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_weapon_preference = WP_MAGIC;
+		actor_auto_switches_to_magic = true;
+		actor_auto_switches_to_karate = false;
+		actor_auto_switches_to_melee = false;
+	}
+}
+[t:template,n:2W_xp_braak]
+{
+	category_name = "2W_evil_c";
+	doc = "2W_xp_braak";
+	specializes = 2W_base_braak;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 26, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			nature_magic = 50, 0;
+			combat_magic = 49, 0;
+		}
+	}
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_edm_ash_fiend;
+		}
+		experience_value = 43178;
+		life = 1047;
+		max_life = 1069;
+		mana = 107;
+		max_mana = 110;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 257;
+		damage_min = 167;
+	}
+	[common]
+	{
+		screen_name = "Braak Lurker";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 552;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = xp_spell_braak;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.2;
+					min = 35036;
+					max = 62059;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.1;
+					il_main = #weapon/136-146;
+					il_main = #armor/207-289;
+					il_main = #*/135-145;
+				}
+				[oneof*]
+				{
+					chance = 0.005;
+					il_main = #weapon/-rare(1)/133-149;
+					il_main = #armor/-rare(1)/247-289;
+					il_main = #*/-rare(1)/132-148;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_weapon_preference = WP_MAGIC;
+		actor_auto_switches_to_magic = true;
+		actor_auto_switches_to_karate = false;
+		actor_auto_switches_to_melee = false;
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit
+			?social						= 0.5
+			&meander					= false
+			&still						= false;
+	}
+}
+[t:template,n:2W_xp_darkling]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_darkling";
+	specializes = 2W_base_darkling;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 33, 0;
+			intelligence = 10, 0;
+			dexterity = 22, 0;
+			combat_magic = 52, 0;
+			nature_magic = 53, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 43236;
+		life = 1009;
+		max_life = 1031;
+		mana = 107;
+		max_mana = 110;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 271;
+		damage_min = 180;
+	}
+	[common]
+	{
+		screen_name = "Darkling";
+	}
+	[defend]
+	{
+		defense = 582;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = xp_spell_darkling;
+		}
+		[pcontent]
+		{
+		}
+	}
+	[mind]
+	{
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+	}
+}
+[t:template,n:2W_xp_fleshrender]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_fleshrender";
+	specializes = 2W_dsx_fleshrender_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 29, 0;
+			intelligence = 10, 0;
+			dexterity = 15, 0;
+			melee = 54, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 43244;
+		life = 1092;
+		max_life = 1114;
+		mana = 254;
+		max_mana = 257;
+		material = flesh;
+		draw_shadow = false;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_call_wraith_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_zombie_ground_SED;
+			}
+			[hit_critical]
+			{
+				priority = low;
+				* = s_e_hit_dead_SED;
+			}
+			[hit_glance]
+			{
+				priority = low;
+				* = s_e_hit_dead_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_dead_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 317;
+		damage_min = 206;
+	}
+	[common]
+	{
+		screen_name = "Fleshrender";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 622;
+	}
+}
+[t:template,n:2W_xp_krug]
+{
+	category_name = "2W_evil_a";
+	doc = "2W_xp_krug";
+	specializes = 2W_base_krug;
+	[actor]
+	{
+		[skills]
+		{
+			dexterity = 8, 0;
+			intelligence = 4, 0;
+			strength = 21, 0;
+			melee = 54, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 43638;
+		life = 1149;
+		max_life = 1172;
+		mana = 107;
+		max_mana = 110;
+		scale_base = 0.9;
+		selection_indicator_scale = 0.85;
+		[textures]
+		{
+			0 = b_c_eam_ksv;
+		}
+	}
+	[attack]
+	{
+		damage_max = 309;
+		damage_min = 207;
+	}
+	[common]
+	{
+		screen_name = "Krug Scavenger";
+		membership = monster;
+	}
+	[defend]
+	{
+		defense = 600;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+		}
+	}
+	[mind]
+	{
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit
+			?destructive	= 0.29
+			&still			= false;
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party		= true;
+		on_enemy_spotted_alert_friends = true;
+	}
+	[physics]
+	{
+		break_sound = s_e_meat_explosion;
+		explosion_magnitude = 1.5;
+		[break_particulate]
+		{
+			frag_glb_krug_scavenger_01 = 1;
+			frag_glb_krug_scavenger_02 = 1;
+			frag_glb_krug_scavenger_03 = 1;
+			frag_glb_krug_scavenger_04 = 1;
+			frag_glb_krug_scavenger_05 = 1;
+			frag_glb_krug_scavenger_06 = 1;
+			frag_glb_krug_scavenger_07 = 1;
+			frag_glb_krug_scavenger_08 = 1;
+		}
+	}
+}
+[t:template,n:2W_xp_horrid]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_horrid";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 43, 0;
+			intelligence = 8, 0;
+			dexterity = 15, 0;
+			melee = 51, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 42948;
+		life = 1200;
+		max_life = 1223;
+		mana = 144;
+		max_mana = 147;
+		model = m_c_edm_hd_pos_1;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_horrid;
+			}
+			[hit_critical]
+			{
+				priority = low;
+				* = s_e_hit_horrid_SED;
+			}
+			[hit_glance]
+			{
+				priority = low;
+				* = s_e_hit_horrid_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_horrid_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 278;
+		damage_min = 190;
+	}
+	[body]
+	{
+		avg_move_velocity = 3;
+		[bone_translator]
+		{
+			body_anterior = Head_Bone;
+			body_mid = Bip01_Spine2;
+			body_posterior = Bip01_Pelvis;
+			kill_bone = Bip01_Pelvis;
+			shield_bone = shield_grip;
+			weapon_bone = weapon_grip;
+		}
+		[weapon_scales]
+		{
+			as_single_melee = 1.7, 1.7, 1.7;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_hd_fs;
+			[chore_attack]
+			{
+				chore_stances = 1;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+					01 = at-02;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 1;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = dfs;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 1;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 1;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dff;
+					01 = dff-02;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 1;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = wl;
+				}
+			}
+		}
+	}
+	[common]
+	{
+		screen_name = "Horrid";
+	}
+	[defend]
+	{
+		defense = 565;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+		}
+	}
+	[mind]
+	{
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit
+			?curious	= 0.75
+			&delay_min	= 7.0
+			&interest	= interest
+			&meander	= false
+			&still		= false;
+		melee_engage_range = 14.0;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+[t:template,n:2W_xp_spider_emerald]
+{
+	category_name = "2W_evil_d";
+	doc = "2W_xp_spider_emerald";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 21, 0;
+			intelligence = 9, 0;
+			dexterity = 14, 0;
+			melee = 48, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_edm_sp_pos_1;
+		[textures]
+		{
+			0 = b_c_edm_emerald_spider;
+		}
+		experience_value = 42668;
+		life = 916;
+		max_life = 939;
+		mana = 0;
+		max_mana = 0;
+		scale_base = 0.35;
+		[voice]
+		{
+			[die]
+			{
+				priority = high;
+				* = s_e_die_spider_SED;
+			}
+			[enemy_spotted]
+			{
+				priority = high;
+				* = s_e_call_spider_emerald_SED;
+			}
+			[attack]
+			{
+				priority = high;
+				* = s_e_attack_spider_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_min = 165;
+		damage_max = 256;
+		reload_delay = 1;
+	}
+	[defend]
+	{
+		defense = 533;
+	}
+	[body]
+	{
+		avg_move_velocity = 2.350000;
+		[bone_translator]
+		{
+			body_anterior = bone02;
+			body_mid = bone04;
+			body_posterior = bone04;
+			kill_bone = bone04;
+			shield_bone = bone01;
+			weapon_bone = bone02;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_sp_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = dfs;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dff;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = wl;
+				}
+			}
+		}
+	}
+	[common]
+	{
+		screen_name = "Emerald Spider";
+	}
+	[mind]
+	{
+		melee_engage_range = 14.0;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+	[physics]
+	{
+		break_effect = spider_guts_black;
+		explode_when_killed = true;
+		explosion_magnitude = 1.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_xp_emerald_spider_01 = 1;
+			frag_xp_emerald_spider_02 = 3;
+			frag_xp_emerald_spider_03 = 5;
+			frag_xp_emerald_spider_04 = 5;
+			frag_xp_emerald_spider_05 = 1;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+		}
+	}
+}
+[t:template,n:2W_xp_raks]
+{
+	category_name = "2W_evil_b";
+	doc = "2W_xp_raks";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 33, 0;
+			intelligence = 18, 0;
+			dexterity = 20, 0;
+			melee = 56, 0;
+			nature_magic = 55, 0;
+			combat_magic = 54, 0;
+		}
+	}
+	[aspect]
+	{
+		model = m_c_ebb_rax_pos_1;
+		experience_value = 43125;
+		life = 1588;
+		max_life = 1610;
+		mana = 107;
+		max_mana = 110;
+		scale_base = 2.5;
+		[textures]
+		{
+			3 = b_c_edm_rt-04;
+		}
+		[voice]
+		{
+			[attack]
+			{
+				priority = high;
+				* = s_e_attack_rector;
+			}
+			[die]
+			{
+				priority = high;
+				* = s_e_die_fire_elemental;
+			}
+			[hit_critical]
+			{
+				priority = low;
+				* = s_e_hit_rector_SED;
+			}
+			[hit_solid]
+			{
+				priority = low;
+				* = s_e_hit_worm_SED;
+			}
+			[hit_glance]
+			{
+				priority = low;
+				* = s_e_hit_elemental_fire_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 357;
+		damage_min = 225;
+	}
+	[body]
+	{
+		avg_move_velocity = 2.810000;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = bip01_spine;
+			body_posterior = bip01_pelvis;
+			kill_bone = bip01_spine;
+			shield_bone = bip01_l_hand;
+			weapon_bone = bip01_r_hand;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_ebb_rax_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = dfs;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dff;
+					01 = dff-02;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = mg;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = wl;
+				}
+			}
+		}
+	}
+	[common]
+	{
+		membership = monster;
+		screen_name = "Raks";
+	}
+	[defend]
+	{
+		defense = 733;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = xp_spell_raks;
+		}
+		[pcontent]
+		{
+			[all*]
+			{
+				il_main = #armor/-rare(1)/275-372;
+				il_main = #armor/-rare(1)/275-372;
+				[oneof*]
+				{
+					il_main = #weapon/-rare(1)/153-161;
+					il_main = #armor/-rare(1)/275-372;
+					il_main = #*/-rare(1)/151-159;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-unique(2)/142-150;
+					il_main = #armor/-unique(2)/260-342;
+					il_main = #*/-unique(2)/141-149;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-rare(1)/153-161;
+					il_main = #armor/-rare(1)/275-372;
+					il_main = #*/-rare(1)/151-159;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-unique(2)/142-150;
+					il_main = #armor/-unique(2)/260-342;
+					il_main = #*/-unique(2)/141-149;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-unique(2)/153-161;
+					il_main = #armor/-unique(2)/275-387;
+					il_main = #*/-unique(2)/151-159;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/-rare(1)/174-182;
+					il_main = #armor/-rare(1)/305-401;
+					il_main = #*/-rare(1)/172-180;
+				}
+				[gold*]
+				{
+					min = 36232;
+					max = 63654;
+					piles = 4 - 6;
+					min_pile = 92;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_weapon_preference = WP_MAGIC;
+		actor_auto_switches_to_magic = true;
+		actor_auto_switches_to_karate = true;
+		actor_auto_switches_to_melee = true;
+		on_enemy_entered_icz_switch_to_melee = true;
+		jat_brain = world\ai\jobs\common\brain_hero.skrit
+		?actor_joins_existing_party	= true;
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+		jat_attack_object_melee = world\ai\jobs\common\job_attack_object_melee.skrit
+			?persistence				= 0.0
+			&hit_multiple				= true;
+		melee_engage_range = 4.1;
+		personal_space_range = 2;
+		ranged_engage_range = 20.0;
+		sight_range = 20.0;
+		inner_comfort_zone_range = 4.0;
+		outer_comfort_zone_range = 9.0;
+	}
+}

@@ -1,0 +1,668 @@
+[t:template,n:2W_xp_container_r1_1]
+{
+	specializes = base_container_barrel;
+	doc = "2W_xp_container_r1_1";
+	category_name = "dsx_a1";
+	[aspect]
+	{
+		model = m_i_glb_barrel-01;
+		[textures]
+		{
+			0 = b_i_ice_supplies-01;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				chance = 1.0;
+				il_main = potion_health_large;
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r1_2]
+{
+	specializes = base_container_barrel;
+	doc = "2W_xp_container_r1_2";
+	category_name = "dsx_a1";
+	[aspect]
+	{
+		model = m_i_glb_barrel-01;
+		[textures]
+		{
+			0 = b_i_ice_supplies-01;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.4;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r2_1]
+{
+	specializes = base_container_barrel;
+	doc = "2W_xp_container_r2_1";
+	category_name = "dsx_a1";
+	[aspect]
+	{
+		model = m_i_glb_barrel-01;
+		[textures]
+		{
+			0 = b_i_ice_supplies-01;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.4;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.1;
+					il_main = #weapon/133-144;
+					il_main = #armor/206-275;
+					il_main = #*/132-143;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r2_2]
+{
+	specializes = base_container_wood;
+	doc = "2W_xp_container_r2_2";
+	category_name = "dsx_a1";
+	[aspect]
+	{
+		model = m_i_glb_crate;
+		[textures]
+		{
+			0 = b_i_ice_crate;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.4;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.15;
+					il_main = #weapon/136-144;
+					il_main = #armor/206-275;
+					il_main = #*/135-143;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r2_3]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r2_3";
+	specializes = base_chest;
+	[common]
+	{
+		screen_name = "Chest";
+	}
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-03;
+		[textures]
+		{
+			0 = b_i_ice_chest-open;
+		}
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			il_main = sd_g_c_bl_1h_avg;
+			il_main = bw_g_c_s_m_c_avg;
+			il_main = potion_rejuvenation_large;
+		}
+	}
+}
+[t:template,n:2W_xp_container_r3_1]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r3_1";
+	specializes = base_pot_cav_03;
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = #weapon/133-144;
+					il_main = #armor/206-275;
+					il_main = #*/132-143;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-rare(1)/133-146;
+					il_main = #armor/-rare(1)/247-275;
+					il_main = #*/-rare(1)/132-145;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r3_2]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r3_2";
+	specializes = base_pot_cav_03;
+	[aspect]
+	{
+		model = m_i_grs_pot-01;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.4;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/136-144;
+					il_main = #armor/206-275;
+					il_main = #*/135-143;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-rare(1)/138-149;
+					il_main = #armor/-rare(1)/247-330;
+					il_main = #*/-rare(1)/137-148;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r3_3]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r3_3";
+	specializes = base_container_barrel;
+	[aspect]
+	{
+		model = m_i_swp_barrel-01;
+		[textures]
+		{
+			0 = b_i_swp_barrel-01;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = #weapon/138-146;
+					il_main = #armor/211-289;
+					il_main = #*/137-145;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/-rare(1)/146-156;
+					il_main = #armor/-rare(1)/260-345;
+					il_main = #*/-rare(1)/145-154;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-unique(2)/146-156;
+					il_main = #armor/-unique(2)/260-345;
+					il_main = #*/-unique(2)/145-154;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r3_spec]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r3_spec";
+	specializes = base_chest;
+	[common]
+	{
+		screen_name = "Chest";
+	}
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-04;
+		[textures]
+		{
+			0 = b_i_glb_chest-open-02;
+		}
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				il_main = #armor/-rare(1)/247-345;
+				il_main = #*/-rare(1)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #weapon/-unique(2)/146-156;
+				il_main = #*/-unique(2)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #armor/-unique(2)/260-358;
+				il_main = #*/-unique(2)/135-144;
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r4_1]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r4_1";
+	specializes = base_container_clay;
+	[aspect]
+	{
+		model = m_i_glb_vase-05;
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/136-146;
+					il_main = #armor/207-289;
+					il_main = #*/135-145;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-rare(1)/133-149;
+					il_main = #armor/-rare(1)/247-289;
+					il_main = #*/-rare(1)/132-148;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r4_2]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r4_2";
+	specializes = base_chest;
+	[common]
+	{
+		screen_name = "Cauldron";
+	}
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_coldron;
+		[textures]
+		{
+			0 = b_i_glb_cauldron;
+		}
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = a_i_glb_cauldron-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_medium;
+					il_main = potion_health_medium;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.15;
+					il_main = #weapon/138-146;
+					il_main = #armor/207-289;
+					il_main = #*/137-145;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-rare(1)/141-153;
+					il_main = #armor/-rare(1)/247-345;
+					il_main = #*/-rare(1)/140-151;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r4_3]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r4_3";
+	specializes = base_chest;
+	[common]
+	{
+		screen_name = "Chest";
+	}
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-03;
+		[textures]
+		{
+			0 = b_i_glb_chest-01;
+		}
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
+				}
+				[oneof*]
+				{
+					chance = 0.3;
+					il_main = #weapon/141-149;
+					il_main = #armor/214-302;
+					il_main = #*/140-148;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #weapon/-rare(1)/149-158;
+					il_main = #armor/-rare(1)/260-358;
+					il_main = #*/-rare(1)/148-156;
+				}
+				[oneof*]
+				{
+					chance = 0.05;
+					il_main = #weapon/-unique(2)/149-158;
+					il_main = #armor/-unique(2)/260-358;
+					il_main = #*/-unique(2)/148-156;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r4_spec]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r4_spec";
+	specializes = base_container_wood;
+	[aspect]
+	{
+		model = m_i_glb_trunk-long;
+	}
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_i_glb_trunk-long;
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				il_main = #armor/-rare(1)/247-345;
+				il_main = #*/-rare(1)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #weapon/-unique(2)/146-156;
+				il_main = #*/-unique(2)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #armor/-unique(2)/260-358;
+				il_main = #*/-unique(2)/135-144;
+			}
+		}
+	}
+}
+[t:template,n:2W_xp_container_r5_spec]
+{
+	category_name = "dsx_a1";
+	doc = "2W_xp_container_r5_spec";
+	specializes = base_chest;
+	[common]
+	{
+		screen_name = "Chest";
+	}
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-03;
+		[textures]
+		{
+			0 = b_i_csl_chest-04;
+		}
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		drop_at_use_point = true;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				il_main = #armor/-rare(1)/247-345;
+				il_main = #*/-rare(1)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #weapon/-unique(2)/146-156;
+				il_main = #*/-unique(2)/145-154;
+			}
+			[oneof*]
+			{
+				il_main = #armor/-unique(2)/260-358;
+				il_main = #*/-unique(2)/135-144;
+			}
+		}
+	}
+}
