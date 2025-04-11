@@ -359,7 +359,7 @@
 	[0x0000]
 	{
 		from = "Too long was my mind clouded by the evil of the island... Thank you, my friend! Thank you... your parents would be proud. Your courage and bravery mark you as a true hero.";
-		to = "Zu lange war mein Geist benebelt vom Bösen der Insel... Danke Euch, mein Freund! Danke... Eure Elter wären stolz. Euer Mut und Tapferkeit zeichnen Euch als echten Helden aus.";
+		to = "Zu lange war mein Verstand getrübt vom Bösen dieser Insel... Ich danke Euch, mein Freund! Vielen Dank... Eure Eltern wären stolz auf Euch. Euer Mut, Eure Tapferkeit weisen Euch als wahren Helden aus.";
 	}
 
     // Reynard
