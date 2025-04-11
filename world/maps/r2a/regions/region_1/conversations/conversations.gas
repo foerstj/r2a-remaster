@@ -704,7 +704,7 @@
 {
 	[text*]
 	{
-		sample = s_v_xp_boris_mp;
+		sample = s_v_xp_boris_0;
 		screen_text = "My father says never to go on adventures with people who aren't experienced.";
 	  f scroll_rate = 20.0;
 	}
