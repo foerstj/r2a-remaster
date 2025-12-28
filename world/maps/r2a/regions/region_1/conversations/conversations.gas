@@ -128,6 +128,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard1_1;
 		screen_text = "These gates are locked, my friend. Several have left without returning. Each night we are beset by beasts. No one has seen them; they may lurk outside even now!";
 	  f scroll_rate = 20.000000;
 	}
@@ -136,6 +137,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard1_2;
 		screen_text = "You look like you can handle yourself. Good luck out there.";
 	  f scroll_rate = 20.000000;
 	}
@@ -144,6 +146,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard1_3;
 		screen_text = "You showed them Zaurask a thing or two!";
 	  f scroll_rate = 20.000000;
 	}
@@ -153,11 +156,13 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_guard2_1;
 		screen_text = "I don't think you should go this way... the problems seem to be coming from the North.";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_guard2_2;
 		screen_text = "Just doing my job. I won't open the gate. You can stop trying.";
 	  f scroll_rate = 20.000000;
 	}
@@ -166,6 +171,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard2_3;
 		screen_text = "I know everyone says you rescued us and all, but I still won't open this gate.";
 	  f scroll_rate = 20.000000;
 	}
@@ -175,11 +181,13 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_guard3_1;
 		screen_text = "Rowan has ordered this path closed. Our troubles are not beyond here. I warrant you will find plenty of action elsewhere.";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_guard3_2;
 		screen_text = "This isn't the way you want to go.";
 	  f scroll_rate = 20.000000;
 	}
@@ -296,6 +304,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_raab_1;
 		screen_text = "An honest man can't even make a living any more. why, my mules all ran off after those beasts attacked the town last time. I never even saw what happened.";
 	  f scroll_rate = 20.0;
 	}
@@ -304,6 +313,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_raab_2;
 		screen_text = "I still don't trust the Hassat, because my mules don't trust them.";
 	  f scroll_rate = 20.0;
 	}
@@ -313,17 +323,20 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_phelan_1;
 		screen_text = "These things were working a minute ago, I swear they were. If I could just get a single quiet minute to decipher these runes...";
 	  f scroll_rate = 20.0;
 	}
 	[text*]
 	{
 	  i order = 1;
+		sample = s_v_xp_phelan_2;
 		screen_text = "I should be in my lab.";
 	  f scroll_rate = 20.0;
 	}
 	[text*]
 	{
+		sample = s_v_xp_phelan_3;
 		screen_text = "What is it now?";
 	  f scroll_rate = 20.0;
 	}
@@ -342,11 +355,13 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_francesca_1;
 		screen_text = "I never did trust that Rowan. He took charge too suddenly after Hardison vanished. Still, if he asked Moht to wake you, he can't be all bad.";
 	  f scroll_rate = 20.0;
 	}
 	[text*]
 	{
+		sample = s_v_xp_francesca_2;
 		screen_text = "Be careful. As my Mum used to say: 'You cant judge a sword by its sheath.'";
 	  f scroll_rate = 20.0;
 	}
@@ -631,6 +646,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_reynard_10;
 		screen_text = "You have acquitted yourself admirably.";
 	  f scroll_rate = 20.0;
 	}
