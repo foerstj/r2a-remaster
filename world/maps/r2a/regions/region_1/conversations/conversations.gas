@@ -4,7 +4,7 @@
 	{
 		sample = s_v_xp_intro;
 		screen_text = " ";
-		f scroll_rate = 20.00;
+	  f scroll_rate = 20.000000;
 	}
 }
 [xp_intro_1]
@@ -12,7 +12,7 @@
 	[text*]
 	{
 		screen_text = "With the passing of the Shadowjumper, the Hero of Arhok returned, and peace descended upon the town.";
-		f scroll_rate = 3.75;
+	  f scroll_rate = 3.750000;
 	}
 }
 [xp_intro_2]
@@ -20,7 +20,7 @@
 	[text*]
 	{
 		screen_text = "But the Staff of Stars was judged too powerful to remain in the land, and too dangerous to destroy.";
-		f scroll_rate = 3.75;
+	  f scroll_rate = 3.750000;
 	}
 }
 [xp_intro_3]
@@ -28,7 +28,7 @@
 	[text*]
 	{
 		screen_text = "In a final selfless act, the Hero of Arhok agreed to be frozen - along with the Staff - into a Great Statue to watch over the town should trouble ever return.";
-		f scroll_rate = 3.75;
+	  f scroll_rate = 3.750000;
 	}
 }
 [xp_intro_4]
@@ -36,7 +36,7 @@
 	[text*]
 	{
 		screen_text = "Now foul creatures have returned to ravage the lands outside Arhok. Though a few brave souls have journeyed beyond the town's gates, none have returned.";
-		f scroll_rate = 3.75;
+	  f scroll_rate = 3.750000;
 	}
 }
 [xp_intro_5]
@@ -44,9 +44,9 @@
 	[text*]
 	{
 		screen_text = "The time has come for the Protector of Arhok to awaken.";
-		f scroll_rate = 3.75;
+	  f scroll_rate = 3.750000;
 	}
-}		
+}
 [moht_0]
 {
 	[text*]
@@ -54,13 +54,13 @@
 	  i order = 0;
 		sample = s_v_xp_moht_0;
 		screen_text = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.\n\nThe spell that held you in stasis destroyed the Staff of Stars, and even drained some of your life force. I hope you will train before you leave town.\n\nI have saved some money and resurrection scrolls to give to you. It's not much, but perhaps it will help you.";
-	  f scroll_rate = 10.0000;
+	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		sample = s_v_xp_moht_0_revisit;
 		screen_text = "You should go speak to Rowan. He will tell you of our plight.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [moht_1]
@@ -115,13 +115,13 @@
 	  i order = 0;
 		sample = s_v_xp_moht_0_mp;
 		screen_text = "Welcome, hero! We have need of you again. Attacks on our town in the dark of night have killed several townspeople, and now our beloved Mayor, Hardison Dohn, has gone missing. No one is sure what is happening. Rowan has taken over the mayoral duties for now. I suspect you are our best hope for defense.";
-	  f scroll_rate = 10.0000;
+	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		sample = s_v_xp_moht_0_revisit;
 		screen_text = "You should go speak to Rowan. He will tell you of our plight.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [guard1_0]
@@ -199,15 +199,15 @@
 		order = 0;
 		sample = s_v_xp_rowan_1;
 		screen_text = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before. Kiira tells me the stasis spell has reduced your skills; she has scrolls to help you.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.";
-	  	f scroll_rate = 20.000000;
-	  	quest_dialog = true;
-	  	activate_quest*	= xp_king,1;
+	  f scroll_rate = 20.000000;
+		quest_dialog = true;
+		activate_quest* = xp_king,1;
 	}
 	[text*]
 	{
 		sample = s_v_xp_rowan_1_revisit;
 		screen_text = "Before you leave town, be sure to talk to Kiira.";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [rowan_2]
@@ -217,13 +217,13 @@
 		order = 0;
 		sample = s_v_xp_rowan_2;
 		screen_text = "Kiira seems to have helped you. Take the North gate out of town. That's where those mangy cats are coming from.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_xp_rowan_2_revisit;
 		screen_text = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [rowan_mp]
@@ -233,16 +233,16 @@
 		order = 0;
 		sample = s_v_xp_rowan_mp_1;
 		screen_text = "So, you are the famous hero of Arhok? You don't look so impressive to me. Still, the townspeople have faith in you, and you saved them once before.\n\nThe town is under attack, and I know it is those vile Hassat. My predecessor, Hardison, did little to bolster the town's defenses, and now we are nearly helpless against these ferocious scavengers. We have no idea why they are attacking us, but they must be stopped before they destroy the town.\n\nTake the North gate out of town. That's where those mangy cats are coming from.";
-	  	f scroll_rate = 20.000000;
-	  	quest_dialog = true;
-	  	activate_quest*	= xp_king,1;
-	  	activate_quest*	= xp_king,2;
+	  f scroll_rate = 20.000000;
+		quest_dialog = true;
+		activate_quest* = xp_king,1;
+		activate_quest* = xp_king,2;
 	}
 	[text*]
 	{
 		sample = s_v_xp_rowan_2_revisit;
 		screen_text = "The North gate is the way to go... that's where the Hassat seem to be coming from.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_0]
@@ -252,7 +252,7 @@
 		choice = shop;
 		sample = s_v_a1_lharnob_06;
 		screen_text = "Thank the heavens that the world has heroes such as you. So tell me—what will your next adventure be?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_0]
@@ -261,7 +261,7 @@
 	{
 		sample = s_v_xp_kiira_0;
 		screen_text = "I have a gift for you, but Rowan insists that you speak to him first.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_1]
@@ -271,13 +271,13 @@
 		order = 0;
 		sample = s_v_xp_kiira_1;
 		screen_text = "I know you sacrificed the Staff of Stars for the greater good of Ehb, and I'm grateful. Having some skill in the arts, I have prepared four scrolls to aid you. Each will grant you knowledge and skill in the discipline of your choosing. Choose the skill you wish aid in carefully, for I have only enough mana to imbue a single scroll. ";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
-	{	
+	{
 		sample = s_v_xp_kiira_1_revisit;
 		screen_text = "You may choose any one of these scrolls. Choose wisely!";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_1_shop]
@@ -287,7 +287,7 @@
 		choice = shop;
 		sample = s_v_xp_kiira_1_shop;
 		screen_text = "Have you any need of spells or potions?";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_finish]
@@ -297,7 +297,7 @@
 		choice = shop;
 		sample = s_v_xp_kiira_finish;
 		screen_text = "Once again, you have saved us.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raab_0]
@@ -306,7 +306,7 @@
 	{
 		sample = s_v_xp_raab_1;
 		screen_text = "An honest man can't even make a living any more. why, my mules all ran off after those beasts attacked the town last time. I never even saw what happened.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raab_finish]
@@ -315,7 +315,7 @@
 	{
 		sample = s_v_xp_raab_2;
 		screen_text = "I still don't trust the Hassat, because my mules don't trust them.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [phelan_0]
@@ -325,20 +325,20 @@
 	  i order = 0;
 		sample = s_v_xp_phelan_1;
 		screen_text = "These things were working a minute ago, I swear they were. If I could just get a single quiet minute to decipher these runes...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 	  i order = 1;
 		sample = s_v_xp_phelan_2;
 		screen_text = "I should be in my lab.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_xp_phelan_3;
 		screen_text = "What is it now?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [bheele_0]
@@ -347,7 +347,7 @@
 	{
 		sample = s_v_a1_bheele_03;
 		screen_text = "Ah! The returning hero!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [francesca_0]
@@ -357,13 +357,13 @@
 	  i order = 0;
 		sample = s_v_xp_francesca_1;
 		screen_text = "I never did trust that Rowan. He took charge too suddenly after Hardison vanished. Still, if he asked Moht to wake you, he can't be all bad.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_xp_francesca_2;
 		screen_text = "Be careful. As my Mum used to say: 'You cant judge a sword by its sheath.'";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raschel_0]
@@ -372,7 +372,7 @@
 	{
 		sample = s_v_a1_raschel_03;
 		screen_text = "The world is a better place with those like you in it. Thank you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_0]
@@ -381,7 +381,7 @@
 	{
 		sample = s_v_xp_saul_0;
 		screen_text = "I would travel with you, but you don't appear ready. Speak to Kiira.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_intro]
@@ -391,7 +391,7 @@
 		choice = potential_member;
 		sample = s_v_xp_saul_intro;
 		screen_text = "I know that you have sacrificed your skills and life for this town, with little enough thanks.  I, for one, want to help, but I have some debts I must resolve before I can in good conscience leave this town. Help me take care of them, and I will be your loyal companion.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_hire]
@@ -400,7 +400,7 @@
 	{
 		sample = s_v_xp_saul_hire;
 		screen_text = "Thank you, kind sir. I am at your service.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_no_money]
@@ -409,7 +409,7 @@
 	{
 		sample = s_v_xp_saul_no_money;
 		screen_text = "I'm sorry, I can't join you before taking care of my debts.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_no_hire]
@@ -418,7 +418,7 @@
 	{
 		sample = s_v_xp_saul_no_hire;
 		screen_text = "As you wish. I will wait here in case you change your mind.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_dismiss]
@@ -427,7 +427,7 @@
 	{
 		sample = s_v_xp_saul_dismiss;
 		screen_text = "As you wish. I will wait here in case you change your mind.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_rehire]
@@ -437,7 +437,7 @@
 		sample = s_v_xp_saul_rehire;
 		choice = potential_member;
 		screen_text = "A change of heart? Excellent. I will be a first rate adventurer.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [saul_mp]
@@ -446,7 +446,7 @@
 	{
 		sample = s_v_xp_saul_mp;
 		screen_text = "I know that you have sacrificed your skills and life for this town, with little enough thanks.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_0]
@@ -455,7 +455,7 @@
 	{
 		sample = s_v_xp_erin_0;
 		screen_text = "I'd love to get out of this town, and I'm handy with a bow, but you don't look like you can handle yourself out there.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_intro]
@@ -465,7 +465,7 @@
 		sample = s_v_xp_erin_intro;
 		choice = potential_member;
 		screen_text = "Nothing ever happens in this town. I wish I had a grand adventure to go on. I'll go with you for a price.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_hire]
@@ -474,7 +474,7 @@
 	{
 		sample = s_v_xp_erin_hire;
 		screen_text = "Great! Thanks for the gold. Now let's get going.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_no_hire]
@@ -483,7 +483,7 @@
 	{
 		sample = s_v_xp_erin_no_hire;
 		screen_text = "Whatever. I'm still bored, and you're still rich.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_no_money]
@@ -492,7 +492,7 @@
 	{
 		sample = s_v_xp_erin_no_money;
 		screen_text = "Too bad you don't have enough money. I'll try to hide my disappointment.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_dismiss]
@@ -501,7 +501,7 @@
 	{
 		sample = s_v_xp_erin_dismiss;
 		screen_text = "Oh, man! Just when I was starting to have a good time!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_rehire]
@@ -511,7 +511,7 @@
 		sample = s_v_xp_erin_rehire;
 		choice = potential_member;
 		screen_text = "Good thinking. You probably can't make it without me.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [erin_mp]
@@ -520,7 +520,7 @@
 	{
 		sample = s_v_xp_erin_mp;
 		screen_text = "Nothing ever happens in this town. I wish I had a grand adventure to go on.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_0]
@@ -529,7 +529,7 @@
 	{
 		sample = s_v_xp_kron_0;
 		screen_text = "I remember you! Kiira told me she was going to make some scrolls for you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_intro]
@@ -539,7 +539,7 @@
 		choice = potential_member;
 		sample = s_v_xp_kron_intro;
 		screen_text = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too. I'd join you too, but who will send money to my poor invalid parents in Smithee? I have to think of them, you know.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_hire]
@@ -548,7 +548,7 @@
 	{
 		sample = s_v_xp_kron_hire;
 		screen_text = "Excellent. I can do more than trap critters now. I can fry 'em!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_no_hire]
@@ -557,7 +557,7 @@
 	{
 		sample = s_v_xp_kron_no_hire;
 		screen_text = "Fine then, no skin off my nose. I'll just join the next group of adventurers that comes by.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_no_money]
@@ -566,7 +566,7 @@
 	{
 		sample = s_v_xp_kron_no_money;
 		screen_text = "I have to make sure my parents are taken care of. Come back when you have more gold.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_dismiss]
@@ -575,7 +575,7 @@
 	{
 		sample = s_v_xp_kron_dismiss;
 		screen_text = "I wanted to go back and sit in my shack anyway.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_rehire]
@@ -603,7 +603,7 @@
 	{
 		sample = s_v_a1_kron_07;
 		screen_text = "Much obliged for all your help!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_mp]
@@ -612,7 +612,7 @@
 	{
 		sample = s_v_xp_kron_mp;
 		screen_text = "You helped me out a while back, and I haven't forgotten. I've been studying. Enough trapping for me, I said. If that young one can go off on a grand adventure, I reckon I can too.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [syrd_0]
@@ -630,7 +630,7 @@
 	{
 		sample = s_v_a1_reynard_09;
 		screen_text = "There's a storm moving in now; there's dark clouds to the west.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_2]
@@ -639,7 +639,7 @@
 	{
 		sample = s_v_a1_reynard_07;
 		screen_text = "Your mission is a grave and dangerous one... my thoughts are with you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_finish]
@@ -648,7 +648,7 @@
 	{
 		sample = s_v_xp_reynard_10;
 		screen_text = "You have acquitted yourself admirably.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_0]
@@ -657,7 +657,7 @@
 	{
 		sample = s_v_xp_boris_0;
 		screen_text = "My father says never to go on adventures with people who aren't experienced.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_intro]
@@ -667,7 +667,7 @@
 		choice = potential_member;
 		sample = s_v_xp_boris_intro;
 		screen_text = "I'm a good fighter! My dad says I can smash anything! You'll see! Can I come with you? There's just this little matter of my bar tab.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_hire]
@@ -676,7 +676,7 @@
 	{
 		sample = s_v_xp_boris_hire;
 		screen_text = "Yes, I'm a really good fighter. You'll see.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_no_hire]
@@ -685,7 +685,7 @@
 	{
 		sample = s_v_xp_boris_no_hire;
 		screen_text = "That makes Boris sad.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_no_money]
@@ -694,7 +694,7 @@
 	{
 		sample = s_v_xp_boris_no_money;
 		screen_text = "That tavern keeper is really mean! If I don't pay my bill, he won't let me leave.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_dismiss]
@@ -703,7 +703,7 @@
 	{
 		sample = s_v_xp_boris_dismiss;
 		screen_text = "That makes Boris sad. Will you come back someday?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_rehire]
@@ -713,7 +713,7 @@
 		choice = potential_member;
 		sample = s_v_xp_boris_rehire;
 		screen_text = "I'm ready to hurt things for you. Just tell me which ones.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [boris_mp]
@@ -722,6 +722,6 @@
 	{
 		sample = s_v_xp_boris_0;
 		screen_text = "My father says never to go on adventures with people who aren't experienced.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
