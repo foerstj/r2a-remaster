@@ -62,8 +62,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.712728,6.44949,0.730373,0xe466f572;
+	  p position = 0,9,0,0xe466f572;
 	}
 }
 [t:elevator_2s_2c_2n,n:0x00100006]
@@ -130,8 +129,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.03192,6.14199,0.741188,0x1db16c2d;
+	  p position = 0,9,0,0x1db16c2d;
 	}
 }
 [t:elevator_2s_2c_2n,n:0x00100057]
