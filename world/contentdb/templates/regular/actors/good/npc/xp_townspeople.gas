@@ -435,8 +435,11 @@
 	[inventory]
 	{
 		spew_equipped_kill_count = <ignore>;
+		[equipment]
+		{
+			es_feet = bo_bo_le_light_invisible;
+		}
 	}
-	
 }
 
 [t:template,n:xp_rowan_evil]
