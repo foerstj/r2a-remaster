@@ -25,7 +25,11 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Minor fixes
   - Cleaned up unused tutorial tip
   - Fixed tilted tree trunk behind hero's house
-  - Made some terrain nodes non-camera-blocking
+- Made some terrain nodes non-camera-blocking
+- Added support for Thrillvilled's voices mod
+- Fixed misaligned gizmos of teleport effects
+- Fixed R2A overwriting the elevator/teleporter list of LoA (for auto-formations)
+- Fixed Rowan's boots leftover in Arhok when returning after defeating Evil Rowan
 
 ## How to build
 - Provide environment variables:
