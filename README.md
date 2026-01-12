@@ -30,6 +30,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Fixed misaligned gizmos of teleport effects
 - Fixed R2A overwriting the elevator/teleporter list of LoA (for auto-formations)
 - Fixed Rowan's boots leftover in Arhok when returning after defeating Evil Rowan
+- Reworked Francesca & Raschel so they're not constantly talking to thin air
 
 ## How to build
 - Provide environment variables:
