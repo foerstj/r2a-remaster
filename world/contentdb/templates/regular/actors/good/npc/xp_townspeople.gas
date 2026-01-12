@@ -1114,18 +1114,31 @@
 
 [t:template,n:xp_francesca]
 {
+	specializes = base_npc_fg_multiplayer;
+
 	category_name = "1W_character";
 	doc = "xp_francesca";
-	specializes = mp_townfolk_female_04;
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_b1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_05;
+			1 = b_c_pos_b1_004;
+		}
+	}
 	[common]
 	{
 		screen_name = "Francesca";
 	}
-	[conversation]
+	[inventory]
 	{
-		[conversations]
+		custom_head = m_c_gah_fg_hlmt_head-04;
+		[equipment]
 		{
-			* = francesca_0;
+			[other]
+			{
+			}
 		}
 	}
 	[mind]
@@ -1136,18 +1149,30 @@
 
 [t:template,n:xp_raschel]
 {
+	specializes = base_npc_fg_multiplayer;
+
 	category_name = "1W_character";
 	doc = "xp_raschel";
-	specializes = mp_townfolk_female_06;
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_b1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_22;
+			1 = b_c_pos_b1_002;
+		}
+	}
 	[common]
 	{
 		screen_name = "Raschel";
 	}
-	[conversation]
+	[inventory]
 	{
-		[conversations]
+		[equipment]
 		{
-			* = raschel_0;
+			[other]
+			{
+			}
 		}
 	}
 	[mind]
