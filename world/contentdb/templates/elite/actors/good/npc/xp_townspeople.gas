@@ -1101,7 +1101,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 }
 [t:template,n:3W_xp_francesca]
@@ -1135,7 +1135,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 }
 [t:template,n:3W_xp_raschel]
