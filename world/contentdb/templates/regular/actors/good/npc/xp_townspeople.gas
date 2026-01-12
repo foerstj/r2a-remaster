@@ -1114,7 +1114,7 @@
 
 [t:template,n:xp_francesca]
 {
-	specializes = dsx_base_npc_fg_multiplayer;
+	specializes = base_npc_fg_talk;
 
 	category_name = "1W_character";
 	doc = "xp_francesca";
@@ -1149,7 +1149,7 @@
 
 [t:template,n:xp_raschel]
 {
-	specializes = dsx_base_npc_fg_multiplayer;
+	specializes = base_npc_fg_talk;
 
 	category_name = "1W_character";
 	doc = "xp_raschel";
