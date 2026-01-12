@@ -33,10 +33,14 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Reworked Francesca & Raschel so they're not constantly talking to thin air
 
 ## How to build
+
 - Provide environment variables:
   - %DungeonSiege% - path to DS installation
   - %TankCreator% - path to TC installation
+  - %GasPy% - path to GasPy repo
 - Run the build.bat in the repo root
+
+GasPy repo: https://github.com/foerstj/gaspy
 
 ## Attribution
 - This map was created by Gas-Powered Games, not me. I'm just doing minor changes here.
