@@ -125,6 +125,38 @@
 	  p position = 1.51193,-0.0354097,-2.28097,0xd1f86798;
 	}
 }
+[t:bd_br_f_g_c_avg_dsx_set_arhok,n:0x0010043c]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 0.934229,-3.65,-0.0298309,0x59511f8b;
+	}
+}
+[t:bw_g_c_s_s_r_avg_dsx_set_arhok,n:0x0010043e]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.152565,-3.65,-0.0402756,0x59511f8b;
+	}
+}
+[t:sd_g_c_sd_1h_avg_dsx_set_arhok,n:0x0010043f]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.743215,-3.65,-0.507484,0x59511f8b;
+	}
+}
+[t:sh_w_m_g_c_t_m_avg_dsx_set_arhok,n:0x00100440]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -1.43222,-3.65,0.0748978,0x59511f8b;
+	}
+}
 [t:pitchfork,n:0x00100130]
 {
 	[aspect]
